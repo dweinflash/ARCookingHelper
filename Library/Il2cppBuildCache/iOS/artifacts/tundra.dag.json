@@ -36,6 +36,7 @@
         "/Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
         "/Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
         "/Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
         "/Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
         "/Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
         "/Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
@@ -54,7 +55,9 @@
         "/Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
         "/Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
         "/Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
         "/Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
         "/Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
         "/Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.dll",
         "/Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Temp/StagingArea/Data/Managed/mscorlib.dll"

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Video;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
@@ -19,14 +20,19 @@ public class SpawnObjectOnPlane : MonoBehaviour
     private Dropdown recipeDropDown;
 
     [SerializeField]
-    private int maxPrefabSpawnCount = 0;
-    private int placedPrefabCount;
-
-    [SerializeField]
     private GameObject meatballPrefab;
     private double meatballX = 0.1933;
     private double meatballY = -0.0594;
     private double meatballZ = 0.1017;
+
+    [SerializeField]
+    private GameObject videoScreenPrefab;
+    private GameObject spawnedVideoScreen;
+
+    [SerializeField]
+    private VideoClip video;
+    private VideoPlayer videoPlayer;
+    private bool playVideo = false;
 
     static List<ARRaycastHit> s_Hits = new List<ARRaycastHit>();
 
@@ -61,17 +67,31 @@ public class SpawnObjectOnPlane : MonoBehaviour
         {
             var hitPose = s_Hits[0].pose;
             string dropDownText = recipeDropDown.options[recipeDropDown.value].text;
-
-            if (dropDownText != "Recipe" && placedPrefabCount < maxPrefabSpawnCount)
-            {
-                SpawnPrefab(hitPose, dropDownText);
-            }
+            SpawnPrefab(hitPose, dropDownText);
         }
     }
 
     private void SpawnPrefab(Pose hitPose, string dropDownText)
     {
         Vector3 position = hitPose.position;
+
+        if (dropDownText == "Cooking Helper")
+        {
+            if (spawnedVideoScreen == null)
+            {
+                spawnedVideoScreen = Instantiate(videoScreenPrefab, position, hitPose.rotation);
+                spawnedVideoScreen.transform.Rotate(0.0f, 180.0f, 0.0f, Space.Self);
+                videoPlayer = spawnedVideoScreen.AddComponent<UnityEngine.Video.VideoPlayer>();
+                videoPlayer.playOnAwake = false;
+                videoPlayer.clip = video;
+            }
+            else
+            {
+                spawnedVideoScreen.transform.position = hitPose.position;
+                spawnedVideoScreen.transform.rotation = hitPose.rotation;
+                spawnedVideoScreen.transform.Rotate(0.0f, 180.0f, 0.0f, Space.Self);
+            }
+        }
 
         if (dropDownText == "Spaghetti")
         {
@@ -80,7 +100,24 @@ public class SpawnObjectOnPlane : MonoBehaviour
             position.z = (float)(position.z + meatballZ);
             spawnedObject = Instantiate(meatballPrefab, position, hitPose.rotation);
         }
+    }
 
-        placedPrefabCount++;
+    public void playVideoScreen()
+    {
+        if (spawnedVideoScreen == null)
+        {
+            return;
+        }
+
+        playVideo = !playVideo;
+
+        if (playVideo)
+        {
+            videoPlayer.Play();
+        }
+        else
+        {
+            videoPlayer.Pause();
+        }
     }
 }

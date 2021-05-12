@@ -12,2146 +12,266 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56734
+49937
 Successfully changed project path to: /Users/dweinflash/Documents/UCSB/AR/ARCookingHelper
 /Users/dweinflash/Documents/UCSB/AR/ARCookingHelper
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.98 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 42.14 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Assets
 GfxDevice: creating device client; threaded=0
-2021-05-10 11:48:41.461 Unity[8977:238959] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-05-10 11:48:41.461 Unity[8977:238959] Metal devices available: 1
-2021-05-10 11:48:41.461 Unity[8977:238959] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-05-10 11:48:41.461 Unity[8977:238959] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-05-10 22:11:18.764 Unity[25857:541363] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-05-10 22:11:18.764 Unity[25857:541363] Metal devices available: 1
+2021-05-10 22:11:18.764 Unity[25857:541363] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-05-10 22:11:18.764 Unity[25857:541363] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56977
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56857
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001338 seconds.
+Registered in 0.002005 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 39.01 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 38.01 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.390 seconds
+- Completed reload, in  2.561 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000997 seconds.
+Registered in 0.003125 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 37.84 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.248 seconds
+- Completed reload, in  1.266 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.8 MB.
-System memory in use after: 143.9 MB.
+Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.5 MB.
+System memory in use after: 147.6 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2380.
-Total: 2.672765 ms (FindLiveObjects: 0.292553 ms CreateObjectMapping: 0.163600 ms MarkObjects: 2.104958 ms  DeleteObjects: 0.110429 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2396.
+Total: 2.530351 ms (FindLiveObjects: 0.225043 ms CreateObjectMapping: 0.082794 ms MarkObjects: 2.132023 ms  DeleteObjects: 0.089290 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/AR Default Plane.prefab
-  artifactKey: Guid(97310d8c78fa144c1b62ac33f0a95a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/AR Default Plane.prefab using Guid(97310d8c78fa144c1b62ac33f0a95a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6aebfc20fc7d0a42b5b2efc92feefd1') in 1.265280 seconds
-  Import took 1.268966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 412.018882 seconds.
-  path: Assets/Scripts/PlaneDetectionToggle.cs
-  artifactKey: Guid(671061096241f4b668ec252894a5209b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlaneDetectionToggle.cs using Guid(671061096241f4b668ec252894a5209b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed09a9f7b7b8418d9132a4cfed3237b') in 0.418884 seconds
-  Import took 0.422804 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000606 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.149 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1925 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.2 MB.
-System memory in use after: 152.3 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2385.
-Total: 2.122051 ms (FindLiveObjects: 0.200804 ms CreateObjectMapping: 0.080492 ms MarkObjects: 1.790468 ms  DeleteObjects: 0.049267 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 7.012260 seconds.
-  path: Assets/Scripts/ImageTracking.cs
-  artifactKey: Guid(7636b98c3c48741b5acc0c518c846620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ImageTracking.cs using Guid(7636b98c3c48741b5acc0c518c846620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b905aa1266f41793456a94bcddd2022a') in 0.010762 seconds
-  Import took 0.015458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034973 seconds.
-  path: Assets/Scripts/ImageTracking.cs
-  artifactKey: Guid(7636b98c3c48741b5acc0c518c846620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ImageTracking.cs using Guid(7636b98c3c48741b5acc0c518c846620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b905aa1266f41793456a94bcddd2022a') in 0.003432 seconds
-  Import took 0.006788 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000713 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.167 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1925 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.5 MB.
-System memory in use after: 152.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2389.
-Total: 2.186845 ms (FindLiveObjects: 0.198734 ms CreateObjectMapping: 0.065098 ms MarkObjects: 1.872342 ms  DeleteObjects: 0.049723 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 84.975094 seconds.
-  path: Assets/Scripts/PlaneDetectionToggle.cs
-  artifactKey: Guid(671061096241f4b668ec252894a5209b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlaneDetectionToggle.cs using Guid(671061096241f4b668ec252894a5209b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875c7f52dd0ee29112b66f2a904fffc0') in 0.007083 seconds
-  Import took 0.009783 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.7 MB.
-System memory in use after: 114.8 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2389.
-Total: 12.171946 ms (FindLiveObjects: 0.649911 ms CreateObjectMapping: 0.090779 ms MarkObjects: 11.329623 ms  DeleteObjects: 0.100172 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.8 MB.
-System memory in use after: 114.8 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2389.
-Total: 21.511816 ms (FindLiveObjects: 0.850867 ms CreateObjectMapping: 0.109745 ms MarkObjects: 20.083575 ms  DeleteObjects: 0.465791 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000653 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.359 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1925 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.8 MB.
-System memory in use after: 152.9 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2393.
-Total: 5.559467 ms (FindLiveObjects: 0.294796 ms CreateObjectMapping: 0.121717 ms MarkObjects: 5.069398 ms  DeleteObjects: 0.072043 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 3130.171116 seconds.
   path: Assets/Scripts/SpawnObjectOnPlane.cs
   artifactKey: Guid(c170aa43038774d7897a1f19c36a2ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SpawnObjectOnPlane.cs using Guid(c170aa43038774d7897a1f19c36a2ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7b91061c5b7c971bfffad6c172ce12') in 0.078509 seconds
-  Import took 0.109296 seconds .
+Start importing Assets/Scripts/SpawnObjectOnPlane.cs using Guid(c170aa43038774d7897a1f19c36a2ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f187c40441781caf02add03b3db20d') in 0.364620 seconds
+  Import took 0.367985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.141524 seconds.
+  path: Assets/Scripts/PlaneDetectionToggle.cs
+  artifactKey: Guid(671061096241f4b668ec252894a5209b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlaneDetectionToggle.cs using Guid(671061096241f4b668ec252894a5209b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0c96586650401dc330d5da843cee8a') in 0.002928 seconds
+  Import took 0.007458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.006707 seconds.
+  path: Assets/Scripts/SpawnObjectOnPlane.cs
+  artifactKey: Guid(c170aa43038774d7897a1f19c36a2ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnObjectOnPlane.cs using Guid(c170aa43038774d7897a1f19c36a2ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb35663258f309c1a1715dda4a50179f') in 0.002735 seconds
+  Import took 0.008502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 265.453844 seconds.
+  path: Assets/Scripts/SpawnObjectOnPlane.cs
+  artifactKey: Guid(c170aa43038774d7897a1f19c36a2ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnObjectOnPlane.cs using Guid(c170aa43038774d7897a1f19c36a2ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f488e632da0a6254afe773935a6a2f') in 0.001694 seconds
+  Import took 0.005376 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000913 seconds.
+Registered in 0.001004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.156 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.1 MB.
+System memory in use after: 151.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2400.
+Total: 2.707232 ms (FindLiveObjects: 0.300494 ms CreateObjectMapping: 0.077425 ms MarkObjects: 2.265438 ms  DeleteObjects: 0.062711 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001025 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.3 MB.
+System memory in use after: 151.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2404.
+Total: 2.600645 ms (FindLiveObjects: 0.267281 ms CreateObjectMapping: 0.090080 ms MarkObjects: 2.175576 ms  DeleteObjects: 0.065914 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.146 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.6 MB.
+System memory in use after: 151.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2408.
+Total: 2.620834 ms (FindLiveObjects: 0.215710 ms CreateObjectMapping: 0.066450 ms MarkObjects: 2.282242 ms  DeleteObjects: 0.055212 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001096 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.441 seconds
+- Completed reload, in  1.101 seconds
 Platform modules already initialized, skipping
 Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1926 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.1 MB.
-System memory in use after: 153.2 MB.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.8 MB.
+System memory in use after: 151.8 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2398.
-Total: 5.215495 ms (FindLiveObjects: 0.339095 ms CreateObjectMapping: 0.095514 ms MarkObjects: 4.684385 ms  DeleteObjects: 0.094985 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2412.
+Total: 2.311128 ms (FindLiveObjects: 0.209166 ms CreateObjectMapping: 0.063277 ms MarkObjects: 1.969284 ms  DeleteObjects: 0.068176 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000462 seconds.
+Registered in 0.000978 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.113 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.0 MB.
+System memory in use after: 152.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2416.
+Total: 2.266016 ms (FindLiveObjects: 0.252897 ms CreateObjectMapping: 0.070919 ms MarkObjects: 1.889373 ms  DeleteObjects: 0.051544 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001129 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.140 seconds
+- Completed reload, in  1.123 seconds
 Platform modules already initialized, skipping
 Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1926 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.3 MB.
-System memory in use after: 153.4 MB.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.3 MB.
+System memory in use after: 152.4 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2402.
-Total: 2.314713 ms (FindLiveObjects: 0.383364 ms CreateObjectMapping: 0.089006 ms MarkObjects: 1.792801 ms  DeleteObjects: 0.048588 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 272.383664 seconds.
-  path: Assets/Scripts/SpawnObjectOnPlane.cs
-  artifactKey: Guid(c170aa43038774d7897a1f19c36a2ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SpawnObjectOnPlane.cs using Guid(c170aa43038774d7897a1f19c36a2ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a22974bfdd0615a165b161819c0c95') in 0.008215 seconds
-  Import took 0.011291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 101.719513 seconds.
-  path: Assets/Prefabs/ReferenceImageLibrary.asset
-  artifactKey: Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ReferenceImageLibrary.asset using Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8c616352ea90e8b0db50aa632b561b') in 1.745501 seconds
-  Import took 1.748753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.003629 seconds.
-  path: Assets/Prefabs/Cube.prefab
-  artifactKey: Guid(5b7167caab12f4c618f87512ac5da94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cube.prefab using Guid(5b7167caab12f4c618f87512ac5da94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56815c58741f2578592b09179be13a58') in 0.320016 seconds
-  Import took 0.323567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.257028 seconds.
-  path: Assets/Prefabs/Cube.prefab
-  artifactKey: Guid(5b7167caab12f4c618f87512ac5da94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cube.prefab using Guid(5b7167caab12f4c618f87512ac5da94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9681edd82d3535c1be31e031ee42733c') in 0.010476 seconds
-  Import took 0.015190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.812337 seconds.
-  path: Assets/Prefabs/Cube.prefab
-  artifactKey: Guid(5b7167caab12f4c618f87512ac5da94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cube.prefab using Guid(5b7167caab12f4c618f87512ac5da94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10ff69011f0202258db0ef5a09ad57e') in 0.009197 seconds
-  Import took 0.013209 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.4 MB.
-System memory in use after: 124.5 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2410.
-Total: 18.911658 ms (FindLiveObjects: 0.577572 ms CreateObjectMapping: 0.087919 ms MarkObjects: 18.112729 ms  DeleteObjects: 0.132421 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 356.623951 seconds.
-  path: Assets/Prefabs/ReferenceImageLibrary.asset
-  artifactKey: Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ReferenceImageLibrary.asset using Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9379215822352a7ea98e9e40c421fa4b') in 0.622749 seconds
-  Import took 0.628119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1620.063286 seconds.
-  path: Assets/Prefabs/Meatball.obj
-  artifactKey: Guid(71774f23ffbad46f0bdf22e03b5b1182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.obj using Guid(71774f23ffbad46f0bdf22e03b5b1182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fd28c41d95ea5b26cc44d9a73baae5') in 1.451930 seconds
-  Import took 1.477770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 82.834178 seconds.
-  path: Assets/Prefabs/Meatball--es5U2Xg1pxS
-  artifactKey: Guid(5d0d23a6edd5b499aa40ed4fe9cd9ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball--es5U2Xg1pxS using Guid(5d0d23a6edd5b499aa40ed4fe9cd9ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9324d178debc4b977581da6363d140e') in 0.001960 seconds
-  Import took 0.006785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.185399 seconds.
-  path: Assets/Prefabs/Meatball--es5U2Xg1pxS/Meatball.obj
-  artifactKey: Guid(d1a0b7b2e9f7e4c0b945cc8e5df4eff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball--es5U2Xg1pxS/Meatball.obj using Guid(d1a0b7b2e9f7e4c0b945cc8e5df4eff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781476697a4f54ba968c5b12186ee3b8') in 0.603168 seconds
-  Import took 0.608383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Prefabs/Meatball--es5U2Xg1pxS/thumbnail.png
-  artifactKey: Guid(00fd6228dc79b4ad1a58adc665b7c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball--es5U2Xg1pxS/thumbnail.png using Guid(00fd6228dc79b4ad1a58adc665b7c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af91907c7fa06e086a72eda0a2c902b') in 1.051086 seconds
-  Import took 1.055582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.544738 seconds.
-  path: Assets/Prefabs/Meatball--es5U2Xg1pxS/Meatball.mtl
-  artifactKey: Guid(c345d5ad3e73d49e1941d088c275d348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball--es5U2Xg1pxS/Meatball.mtl using Guid(c345d5ad3e73d49e1941d088c275d348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a95d8313f704cb26f182d7d3b69687') in 0.267554 seconds
-  Import took 0.272171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 432.870816 seconds.
-  path: Assets/Prefabs/source
-  artifactKey: Guid(70ee6a3f2946d487385d6f498d412af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/source using Guid(70ee6a3f2946d487385d6f498d412af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deea9897a4f306fed24c3cc49bf3a039') in 0.001384 seconds
-  Import took 0.006491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.426054 seconds.
-  path: Assets/Prefabs/source/Meatball--es5U2Xg1pxS
-  artifactKey: Guid(2f22ae80972c947068829050a2789deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/source/Meatball--es5U2Xg1pxS using Guid(2f22ae80972c947068829050a2789deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530c2376474018ff00b4fa3be16c6ff4') in 0.001287 seconds
-  Import took 0.006652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000987 seconds.
-  path: Assets/Prefabs/source/Meatball--es5U2Xg1pxS
-  artifactKey: Guid(2f22ae80972c947068829050a2789deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/source/Meatball--es5U2Xg1pxS using Guid(2f22ae80972c947068829050a2789deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530c2376474018ff00b4fa3be16c6ff4') in 0.001150 seconds
-  Import took 0.005172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.724929 seconds.
-  path: Assets/Prefabs/source/Meatball--es5U2Xg1pxS/Meatball.obj
-  artifactKey: Guid(cc277e2ed8f1c4114b6e7019c4633346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/source/Meatball--es5U2Xg1pxS/Meatball.obj using Guid(cc277e2ed8f1c4114b6e7019c4633346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e5f07a8a4b81a029ff6eeb5f30162e') in 0.635084 seconds
-  Import took 0.641379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Prefabs/source/Meatball--es5U2Xg1pxS/thumbnail.png
-  artifactKey: Guid(fa1c7f41eca7348759950102b7c7ae26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/source/Meatball--es5U2Xg1pxS/thumbnail.png using Guid(fa1c7f41eca7348759950102b7c7ae26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50aa9624779066a5698e9a841b638d1') in 0.044138 seconds
-  Import took 0.048357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.788993 seconds.
-  path: Assets/Prefabs/source/Meatball--es5U2Xg1pxS/Meatball.mtl
-  artifactKey: Guid(ddef7d3540a4c4a7ea0ad00203990662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/source/Meatball--es5U2Xg1pxS/Meatball.mtl using Guid(ddef7d3540a4c4a7ea0ad00203990662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f36dfb4b74088b265cfc8e25cb7b552') in 0.007097 seconds
-  Import took 0.012515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.641840 seconds.
-  path: Assets/Prefabs/source/Meatball--es5U2Xg1pxS/Meatball.gltf
-  artifactKey: Guid(1087baa812072405aaf03fcf36957204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/source/Meatball--es5U2Xg1pxS/Meatball.gltf using Guid(1087baa812072405aaf03fcf36957204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db46d65668dd78ac8f18e5086b237f48') in 0.181821 seconds
-  Import took 0.187028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.135619 seconds.
-  path: Assets/Prefabs/source/Meatball--es5U2Xg1pxS/Meatball.bin
-  artifactKey: Guid(16f9a20d10006421cbc1dc085cb71c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/source/Meatball--es5U2Xg1pxS/Meatball.bin using Guid(16f9a20d10006421cbc1dc085cb71c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab5a57f879f5dbfb1fca8c1f3a1a26b') in 1.803749 seconds
-  Import took 1.810322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.206762 seconds.
-  path: Assets/Prefabs/source/Meatball--es5U2Xg1pxS/02___Default.mat
-  artifactKey: Guid(1f54af6ae3c4245588c73d050960ba05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/source/Meatball--es5U2Xg1pxS/02___Default.mat using Guid(1f54af6ae3c4245588c73d050960ba05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea05cf5464c81754e9af60eba82d215') in 0.212927 seconds
-  Import took 0.218931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Prefabs/source/Meatball--es5U2Xg1pxS/03___Default.mat
-  artifactKey: Guid(4ce57aa39d2c5439b8f18ae5ed282b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/source/Meatball--es5U2Xg1pxS/03___Default.mat using Guid(4ce57aa39d2c5439b8f18ae5ed282b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0391cde4c6a5c13844009fb5759fac') in 0.010186 seconds
-  Import took 0.013612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Prefabs/source/Meatball--es5U2Xg1pxS/Meatball.obj
-  artifactKey: Guid(cc277e2ed8f1c4114b6e7019c4633346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/source/Meatball--es5U2Xg1pxS/Meatball.obj using Guid(cc277e2ed8f1c4114b6e7019c4633346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e550e5be32e3364a49cc87f2b5bc829') in 0.742738 seconds
-  Import took 0.748018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Prefabs/source/Meatball--es5U2Xg1pxS/_crayfishdiffuse.mat
-  artifactKey: Guid(8eee237ec27384cff85c0812f0ab49fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/source/Meatball--es5U2Xg1pxS/_crayfishdiffuse.mat using Guid(8eee237ec27384cff85c0812f0ab49fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ce3333c96b35746b186b3a3be810ab') in 0.014018 seconds
-  Import took 0.017693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 225.050055 seconds.
-  path: Assets/Meatball.obj
-  artifactKey: Guid(96c5681b625c14f9181d1f6427d73ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meatball.obj using Guid(96c5681b625c14f9181d1f6427d73ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8d04f96e41aaa8116ebfdda7e91fa6') in 0.980098 seconds
-  Import took 0.986018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.501215 seconds.
-  path: Assets/Meatball.obj
-  artifactKey: Guid(96c5681b625c14f9181d1f6427d73ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meatball.obj using Guid(96c5681b625c14f9181d1f6427d73ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bd3539ba4ebdbc221c92eae7a9d3e6') in 1.030761 seconds
-  Import took 1.036828 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001353 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.268 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.9 MB.
-System memory in use after: 206.0 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2463.
-Total: 2.615212 ms (FindLiveObjects: 0.260464 ms CreateObjectMapping: 0.076332 ms MarkObjects: 2.176079 ms  DeleteObjects: 0.101358 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2420.
+Total: 2.619051 ms (FindLiveObjects: 0.266246 ms CreateObjectMapping: 0.092561 ms MarkObjects: 2.206552 ms  DeleteObjects: 0.052468 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
-Received Import Request.
-  Time since last request: 365.573669 seconds.
-  path: Assets/Models
-  artifactKey: Guid(03969e131d4db4ff0a71e157e4ce88b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(03969e131d4db4ff0a71e157e4ce88b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818ae653e9ef7170dbb17df99c2d8fd2') in 0.006293 seconds
-  Import took 0.010306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005827 seconds.
-  path: Assets/Models
-  artifactKey: Guid(03969e131d4db4ff0a71e157e4ce88b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(03969e131d4db4ff0a71e157e4ce88b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818ae653e9ef7170dbb17df99c2d8fd2') in 0.001263 seconds
-  Import took 0.004922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 132.018610 seconds.
-  path: Assets/Models/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(5cc34f51a7d5e4d8e8f70c695204b068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball_from_Poly_by_Google.prefab using Guid(5cc34f51a7d5e4d8e8f70c695204b068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c88410e96f9095de163986f418da1dc') in 0.105054 seconds
-  Import took 0.109768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 368.265185 seconds.
-  path: Assets/Sketchfab For Unity/Dependencies
-  artifactKey: Guid(80c2c11d4c3eaee4e9f4450f8e8db3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sketchfab For Unity/Dependencies using Guid(80c2c11d4c3eaee4e9f4450f8e8db3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24648ee33af1fa09a921bdc7966fae88') in 0.001914 seconds
-  Import took 0.010432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 513.143566 seconds.
-  path: Assets/Prefabs/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(9661a5951640345b8b5cf5b465f2af71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball_from_Poly_by_Google.prefab using Guid(9661a5951640345b8b5cf5b465f2af71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa9133ce88933c5fae15d55ff541d27') in 0.051925 seconds
-  Import took 0.056672 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.75 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.0 MB.
-System memory in use after: 169.1 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2464.
-Total: 19.957294 ms (FindLiveObjects: 0.704463 ms CreateObjectMapping: 0.077935 ms MarkObjects: 18.667365 ms  DeleteObjects: 0.506185 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 250.299917 seconds.
-  path: Assets/Prefabs/ReferenceImageLibrary.asset
-  artifactKey: Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ReferenceImageLibrary.asset using Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22661b6ad63642dc015408171cfc6b28') in 0.660868 seconds
-  Import took 0.665320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.568555 seconds.
-  path: Assets/Prefabs/ReferenceImageLibrary.asset
-  artifactKey: Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ReferenceImageLibrary.asset using Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22661b6ad63642dc015408171cfc6b28') in 0.440251 seconds
-  Import took 0.444227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 317.645662 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google
-  artifactKey: Guid(ce5df4597fce54cdf94720c890736368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google using Guid(ce5df4597fce54cdf94720c890736368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6052718974059210045a2cea852a2b18') in 0.003012 seconds
-  Import took 0.027504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.654835 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1775f9b2acd258d43fba23216db380') in 0.077306 seconds
-  Import took 0.083004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.332543 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6adfe15889bee7d3f27880325de870') in 0.022733 seconds
-  Import took 0.027808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.736438 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c42f20719bb789d3afa0f74f4296bd') in 0.018207 seconds
-  Import took 0.022665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.805756 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6adca7b81218e333ad0ca88240138944') in 0.028165 seconds
-  Import took 0.035087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.318286 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf75b239ae7c02848ec68fc00243a176') in 0.030133 seconds
-  Import took 0.035907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.164109 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980262e5ad3cc1df33ac68026d14d80d') in 0.022113 seconds
-  Import took 0.026889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.203229 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb06c96e41de5f5897923bf8d1f33c9') in 0.020174 seconds
-  Import took 0.026760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.811833 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b545146f68399a90183adae83445512') in 0.019479 seconds
-  Import took 0.026338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.377438 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89bd46e7859037d44733e4d91f3c330') in 0.033072 seconds
-  Import took 0.038280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.664458 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/materials
-  artifactKey: Guid(2f414d4bc7f2c4b5ab1910fea7306a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/materials using Guid(2f414d4bc7f2c4b5ab1910fea7306a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739a12142ebb5217940c8f516f65172b') in 0.001899 seconds
-  Import took 0.006447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/materials
-  artifactKey: Guid(2f414d4bc7f2c4b5ab1910fea7306a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/materials using Guid(2f414d4bc7f2c4b5ab1910fea7306a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739a12142ebb5217940c8f516f65172b') in 0.000838 seconds
-  Import took 0.003659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.670108 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/materials/02___Default_1.mat
-  artifactKey: Guid(3bf13398d201b4d48abc6340ff501091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/materials/02___Default_1.mat using Guid(3bf13398d201b4d48abc6340ff501091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefe2792a2818caa164db1d72453b9eb') in 0.074311 seconds
-  Import took 0.078212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/materials/03___Default_2.mat
-  artifactKey: Guid(82012edc6d60d4218a60c219d938cd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/materials/03___Default_2.mat using Guid(82012edc6d60d4218a60c219d938cd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd703fbed43e2b5705cabaf21cfa895f') in 0.010452 seconds
-  Import took 0.014210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/materials/crayfishdiffuse_0.mat
-  artifactKey: Guid(82d304466fe634c6c9c8cc24df4521de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/materials/crayfishdiffuse_0.mat using Guid(82d304466fe634c6c9c8cc24df4521de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93923296fea10fe081d00379013c95d') in 0.013480 seconds
-  Import took 0.017722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.473454 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/textures
-  artifactKey: Guid(4abd0a1b7d8c4428880949cf49799ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/textures using Guid(4abd0a1b7d8c4428880949cf49799ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde12bffea516b5f39cbb1ec6d23f0a4') in 0.002065 seconds
-  Import took 0.007124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.236279 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/meshes
-  artifactKey: Guid(570bc6c62510e41c997c67db44c74067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/meshes using Guid(570bc6c62510e41c997c67db44c74067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67683797046ca461026d2c8b496d927c') in 0.002095 seconds
-  Import took 0.007237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.144156 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/meshes/_0_0.asset
-  artifactKey: Guid(3e7b454394da6470e8b9d7aec068d3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/meshes/_0_0.asset using Guid(3e7b454394da6470e8b9d7aec068d3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87bf7b94264940e496afcd9f4856073') in 0.045946 seconds
-  Import took 0.050341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/meshes/_1_0.asset
-  artifactKey: Guid(f4b748aeeaf784bd3879d7716eedfc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/meshes/_1_0.asset using Guid(f4b748aeeaf784bd3879d7716eedfc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7657cf5dc10814e88e8ad4bb22ef4c3') in 0.010628 seconds
-  Import took 0.015011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/meshes/_2_0.asset
-  artifactKey: Guid(84d14d9fb1cb74f198c1bc2541587e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/meshes/_2_0.asset using Guid(84d14d9fb1cb74f198c1bc2541587e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73514d9a0bdb2053f3ecd603f395cb02') in 0.012303 seconds
-  Import took 0.015605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1515.898710 seconds.
-  path: Assets/Import
-  artifactKey: Guid(73c55b7b223584820a6250e744ec85c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import using Guid(73c55b7b223584820a6250e744ec85c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cba60086d6f7f3fbaaa4bb8bf534222') in 0.003863 seconds
-  Import took 0.036659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.098551 seconds.
-  path: Assets/Import/Meatball.prefab
-  artifactKey: Guid(a1034b67de05149b19c997fd9801078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball.prefab using Guid(a1034b67de05149b19c997fd9801078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c42e48cebec117e2d54e3bcae48045') in 0.102057 seconds
-  Import took 0.106798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.317975 seconds.
-  path: Assets/Import/materials
-  artifactKey: Guid(9f7dfc7778eb9467ead8e7547aaad6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/materials using Guid(9f7dfc7778eb9467ead8e7547aaad6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a57a818558c6ed2d57f703746b1cd2f') in 0.001062 seconds
-  Import took 0.006786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.623980 seconds.
-  path: Assets/Import/meshes
-  artifactKey: Guid(42715e28d22ab4271b96f2511e81512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/meshes using Guid(42715e28d22ab4271b96f2511e81512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6237ad50d60ddccc1dcb1ab1eb7de240') in 0.002559 seconds
-  Import took 0.010920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.268866 seconds.
-  path: Assets/Import/textures
-  artifactKey: Guid(b052299d6192b42a28837dc57528a007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/textures using Guid(b052299d6192b42a28837dc57528a007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af49fe3f88f62f6363639cd8d8a166ee') in 0.001410 seconds
-  Import took 0.007041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.104338 seconds.
-  path: Assets/Import/materials/02___Default_1.mat
-  artifactKey: Guid(b78fc53cc62394bdb86195f51ca580b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/materials/02___Default_1.mat using Guid(b78fc53cc62394bdb86195f51ca580b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078c92dd9779a4bdc95e6035fdfd3ac7') in 0.028906 seconds
-  Import took 0.033462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Import/materials/03___Default_2.mat
-  artifactKey: Guid(dabad77c7f87343ab891e7f499b8e0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/materials/03___Default_2.mat using Guid(dabad77c7f87343ab891e7f499b8e0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fdc7c22347c07785c925946d503740') in 0.008755 seconds
-  Import took 0.012744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Import/materials/_crayfishdiffuse_0.mat
-  artifactKey: Guid(1d7282288db704e0d9bf1ac7406b92bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/materials/_crayfishdiffuse_0.mat using Guid(1d7282288db704e0d9bf1ac7406b92bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5c0a031d26e2ee7bca52c637d501e6') in 0.009607 seconds
-  Import took 0.013409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.822717 seconds.
-  path: Assets/Import/meshes/buffer-0-mesh-0_0_0.asset
-  artifactKey: Guid(8bd03e9274de6449d9f7988e74e21a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/meshes/buffer-0-mesh-0_0_0.asset using Guid(8bd03e9274de6449d9f7988e74e21a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221b61a8b3e10a8db8f36b119a4b803e') in 0.015702 seconds
-  Import took 0.020489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Import/meshes/buffer-0-mesh-0_0_1.asset
-  artifactKey: Guid(88dfa5712fcd54791af6a49da408c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/meshes/buffer-0-mesh-0_0_1.asset using Guid(88dfa5712fcd54791af6a49da408c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6762a5b3686af4cda5a75a4a1a13ac5b') in 0.020334 seconds
-  Import took 0.023753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Import/meshes/buffer-0-mesh-0_0_2.asset
-  artifactKey: Guid(81d3c4737ed5c45d8af342ea6474b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/meshes/buffer-0-mesh-0_0_2.asset using Guid(81d3c4737ed5c45d8af342ea6474b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c55af04b9423a0a2f8eb2daf8c8092e') in 0.031608 seconds
-  Import took 0.035198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Import/meshes/buffer-0-mesh-0_0_1.asset
-  artifactKey: Guid(88dfa5712fcd54791af6a49da408c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/meshes/buffer-0-mesh-0_0_1.asset using Guid(88dfa5712fcd54791af6a49da408c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6762a5b3686af4cda5a75a4a1a13ac5b') in 0.014088 seconds
-  Import took 0.017034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2737.764820 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a427c7744b7ff77b402eb285c05fbb0') in 0.069735 seconds
-  Import took 0.094992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.040078 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9174dba3c45d6a930ce7df51f629ca4e') in 0.039495 seconds
-  Import took 0.046320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.571538 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442f74bedba0e44b2f93a6126c3e8ddc') in 0.041908 seconds
-  Import took 0.047175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.768142 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b38aa0753bd4f6cc82c474a53529d1d') in 0.021560 seconds
-  Import took 0.026104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 316.566270 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/license.txt
-  artifactKey: Guid(c9aeeeecf98394cf29f710315cecfe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/license.txt using Guid(c9aeeeecf98394cf29f710315cecfe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f98a76cdc886764ea27cb66b47e77a') in 3.907940 seconds
-  Import took 3.914268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 159.114207 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4150aa9394dbb1d6fb1f9ad94b482276') in 0.037150 seconds
-  Import took 0.041719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.983793 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b8c88f70026fd593d6be261153960c') in 0.032486 seconds
-  Import took 0.039534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.607352 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368d1aa8fe38034f4274db40095d9a05') in 0.023570 seconds
-  Import took 0.028553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.666215 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc041867b46c63ecffb2397ccbe64152') in 0.037955 seconds
-  Import took 0.044165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.373390 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abdb42886c3ece044be812da0e07328') in 0.031631 seconds
-  Import took 0.036488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.592197 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e55ca30db8cce1d90a8e82a977accaf') in 0.025760 seconds
-  Import took 0.030994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.815180 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a623107782c2b775e436ed39f0b2eed9') in 0.029291 seconds
-  Import took 0.035208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.174115 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb6c54ea6e98ca098a036081a87baca') in 0.023186 seconds
-  Import took 0.029185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.009922 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff05d9d1d610bf999db98a77f634c22') in 0.037005 seconds
-  Import took 0.042898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.775678 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874f1430ecc4632edf81d2b43630eff3') in 0.020269 seconds
-  Import took 0.024294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.203501 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3535a980f6b2a6d1cac83689c27862') in 0.030775 seconds
-  Import took 0.036776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.790441 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff43d4b9c9244ae3a30d259a76d5afc1') in 0.022632 seconds
-  Import took 0.027058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.815979 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0497a6ed5c4d132721a4b861a47baa1') in 0.026948 seconds
-  Import took 0.033616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.189499 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e68e2e78859dcf76f894a12dce5f0e4') in 0.029471 seconds
-  Import took 0.034693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.793082 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa95600844e5d03adfb7b87eeb476801') in 0.037618 seconds
-  Import took 0.044269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.606576 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef916f9175ca2c68f4dc4edff4b3fd01') in 0.026997 seconds
-  Import took 0.032927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.191297 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca12976a52bbba71439ad175a563c52d') in 0.023685 seconds
-  Import took 0.028636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.028912 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e577b7e5387f0035113e8fddb9d2cdc6') in 0.027955 seconds
-  Import took 0.033084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.222355 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6c542b8b60ac086012a2641d585a68') in 0.024685 seconds
-  Import took 0.029717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.404229 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204683ea5736d406219c7a4653d1c34e') in 0.025634 seconds
-  Import took 0.030367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.197504 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfa50099595c2d3f0eed5cc8b6b8d00') in 0.024639 seconds
-  Import took 0.030055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.826497 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8dffd7ec8967d48fb594828077be917') in 0.022828 seconds
-  Import took 0.029035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.394681 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae253aa124f08ae2f854a5a490a5283a') in 0.033348 seconds
-  Import took 0.039436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.053713 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548cd70443e78306a959faa1250c2898') in 0.028674 seconds
-  Import took 0.033452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.208594 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6838e17f465719f5dab54eeac5011303') in 0.023304 seconds
-  Import took 0.027987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.198672 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c553d358fd5228b56599c2aa4727ae3') in 0.023738 seconds
-  Import took 0.028368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.011794 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04112e3da4a7954066fb8c8474aef2bc') in 0.020933 seconds
-  Import took 0.026196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.717254 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e27127b0468e6355e2574de3940783e') in 0.045416 seconds
-  Import took 0.051619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.550337 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98854683c2fd39c650c02fb276440cec') in 0.027876 seconds
-  Import took 0.034029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.798108 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1def5cc725224fdee1a8c7418d2567e6') in 0.036660 seconds
-  Import took 0.041810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.965494 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3caa2b4253d71ec44bb7ff0d22ff3af2') in 0.025941 seconds
-  Import took 0.032586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.376693 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8689dece0d8ff2d52edfb3673a9aff3') in 0.025579 seconds
-  Import took 0.031133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.795697 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be69f2490e5c7969175414f18916cc1') in 0.034325 seconds
-  Import took 0.039698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.397903 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973f64e5d608f21fb61007a140ea5ae6') in 0.021584 seconds
-  Import took 0.026627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.573540 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718d82c4dfbc5fdb87b903312d92364c') in 0.031157 seconds
-  Import took 0.036351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.779551 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17afc6b4e790893286269fa4359af8fd') in 0.022229 seconds
-  Import took 0.026860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.202306 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23999bb0a76c33fb4cc25080af6c39fc') in 0.029823 seconds
-  Import took 0.035107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.365072 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bc66f5c9c357b5fb5f9cd71e956529') in 0.024156 seconds
-  Import took 0.028428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.803707 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911024b1183835465e2a4c653a753d34') in 0.042122 seconds
-  Import took 0.047859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.393897 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2476325a2e2bcb359be370e995957b2e') in 0.024145 seconds
-  Import took 0.029027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.579291 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe5faf9e73db81f7c10f69b0f61c995') in 0.034659 seconds
-  Import took 0.040069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.367695 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6274fb0e8b8bd287d8e77ba4082a921') in 0.033896 seconds
-  Import took 0.039027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.060809 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89f8ba85ee02f95ba6e444e5db0eb92') in 0.034368 seconds
-  Import took 0.039334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.391528 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b57b861bb2cac17bffc789df2b019e') in 0.025004 seconds
-  Import took 0.029705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.799108 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae72de2158e40b1ce2da3db9601a846') in 0.021068 seconds
-  Import took 0.025279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.993226 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6dce449ea921e9d1dd94f1067e1337f') in 0.029345 seconds
-  Import took 0.034953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.370475 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfb4b6eab1bde7016970504e9da2502') in 0.033522 seconds
-  Import took 0.038289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.779080 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b19d423373076c27f957ea8842d108') in 0.024927 seconds
-  Import took 0.030007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.230143 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfc5a827e34ec5c78fadafdee3fffee') in 0.022640 seconds
-  Import took 0.027576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.378276 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7054ab6835f965aeaf3c08cf0cd0e491') in 0.025135 seconds
-  Import took 0.030011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 163.308668 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3d7bd0233c9aa5ffd45be38c6a0c22') in 0.040550 seconds
-  Import took 0.045613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.373010 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9f5c4f4b3f8c2b6ee5072fe4eba90c') in 0.026428 seconds
-  Import took 0.032435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.230689 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a419826dafc66965c9f2984145aa2d7e') in 0.022723 seconds
-  Import took 0.027736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.631868 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14c5e02e40ea95e06e7897c7f2bbcb2') in 0.050134 seconds
-  Import took 0.054662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.352338 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd47d7dae805558339bc29fec5de71ee') in 0.035442 seconds
-  Import took 0.041946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.665032 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaba54718712de2c160207c1ff165568') in 0.021740 seconds
-  Import took 0.025563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.203248 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1096f028fc314c233013122eca0054a') in 0.023616 seconds
-  Import took 0.028444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.260146 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972c1f1f03816e9f2adab195990da86a') in 0.024375 seconds
-  Import took 0.028492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.419501 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c7f81ecd01536d8399092de52f7cad') in 0.026480 seconds
-  Import took 0.031134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.570254 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105859fe182d8af0f9b3182f0433fe23') in 0.024541 seconds
-  Import took 0.028408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.658588 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00ce4b9b7f6fbe3f22d2c37d32507f7') in 0.027330 seconds
-  Import took 0.032374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.590480 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e11aea5699e6ce7c537c841fa9bd492') in 0.023117 seconds
-  Import took 0.027461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.995154 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce5d72ced759bd2d7e3f06898369eb3') in 0.022331 seconds
-  Import took 0.027820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.684806 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b830fd802e393cd2f439922ef2d23848') in 0.026611 seconds
-  Import took 0.031066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.577223 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce73855e7549a6fe707f2ed74bd6d640') in 0.028551 seconds
-  Import took 0.033479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.987121 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691ccc071d3476b1d0b7d175f8c0ca6d') in 0.028845 seconds
-  Import took 0.033488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.548570 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e4dcafdebc28561e67f43d84896ce0') in 0.042657 seconds
-  Import took 0.047822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.969722 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613c1d7467c86d6d71361c543f4ff422') in 0.021072 seconds
-  Import took 0.025884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.882538 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683053de30ecee334cb753a14b5d921f') in 0.029344 seconds
-  Import took 0.033906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.600926 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eed87654f246c576fa2116fb284fdae') in 0.033045 seconds
-  Import took 0.038648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.848214 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590590979bb22589102e813f2b77240f') in 0.027042 seconds
-  Import took 0.031753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.369126 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a641e822bd9ba38d29ec47b55abd905') in 0.040364 seconds
-  Import took 0.045756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.788139 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd130e247f37caec58f4909857b72d79') in 0.022386 seconds
-  Import took 0.026136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.986729 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4489841bcf5d1c21348f2f5d465375') in 0.024995 seconds
-  Import took 0.029727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.806606 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f8093babf2e264f6fc8f4c4f782a15') in 0.020933 seconds
-  Import took 0.025822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.859762 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a900685f1a37933b0d73071837ec924') in 0.034851 seconds
-  Import took 0.040865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.560250 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8642fd1b407abb78ee93df3aefa3c055') in 0.027611 seconds
-  Import took 0.033444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.507539 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a466dbf6ce98dd6346d478463b3dad') in 0.025151 seconds
-  Import took 0.029495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.004835 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35baea1ad02fb71f7abd34b700ee664') in 0.026568 seconds
-  Import took 0.030842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.317013 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa13817db1424af1cfee48b6edd2095') in 0.045278 seconds
-  Import took 0.050447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.191061 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae07ac8b0ea4928382a45aff5dd6622') in 0.025501 seconds
-  Import took 0.030382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.089366 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fa2e61679665ec5b1f1bd4be18abff') in 0.029125 seconds
-  Import took 0.034213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.725389 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0108a1797fdd3d94b46c88ea981e59') in 0.032894 seconds
-  Import took 0.039510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.357183 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5476f7ea61276670995dc6c29b7b0f18') in 0.025378 seconds
-  Import took 0.029077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 170.014223 seconds.
-  path: Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab
-  artifactKey: Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Meatball_from_Poly_by_Google/Meatball_from_Poly_by_Google.prefab using Guid(d2479a1bcc0764def8e910dca9d3f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80269d727fceb55607df7f1726c3e3b0') in 0.044608 seconds
-  Import took 0.068328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 221.237521 seconds.
-  path: Assets/Prefabs/Sphere.prefab
-  artifactKey: Guid(165591d0edab84c36a385472aa40689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Sphere.prefab using Guid(165591d0edab84c36a385472aa40689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fba5524a51947c68ec6a0b9576bcc6') in 0.019076 seconds
-  Import took 0.023475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 115.583925 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(165591d0edab84c36a385472aa40689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(165591d0edab84c36a385472aa40689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbd3d7e30dd13b99e272e535d2c8d35') in 0.013878 seconds
-  Import took 0.018639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 347.758808 seconds.
-  path: Assets/Models/Meatball.prefab
-  artifactKey: Guid(61bb58f441a1c4dbd878e02cd8f087f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball.prefab using Guid(61bb58f441a1c4dbd878e02cd8f087f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5f945294ea1a7129f1786582c92a22') in 0.024492 seconds
-  Import took 0.029289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.698078 seconds.
-  path: Assets/Models/meshes
-  artifactKey: Guid(87f01a1303a5c4b1e9d46b10070802b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/meshes using Guid(87f01a1303a5c4b1e9d46b10070802b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbad8d1c81fc35197704258786c7623') in 0.001552 seconds
-  Import took 0.008013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.631014 seconds.
-  path: Assets/Models/textures
-  artifactKey: Guid(f623d1e72044a47c5865b94a0b24acfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/textures using Guid(f623d1e72044a47c5865b94a0b24acfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1cfdfa1c9f3bcdbc6fa6946fa4fc6c') in 0.001035 seconds
-  Import took 0.005996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000773 seconds.
-  path: Assets/Models/textures
-  artifactKey: Guid(f623d1e72044a47c5865b94a0b24acfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/textures using Guid(f623d1e72044a47c5865b94a0b24acfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1cfdfa1c9f3bcdbc6fa6946fa4fc6c') in 0.000895 seconds
-  Import took 0.003773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.433132 seconds.
-  path: Assets/Models/license.txt
-  artifactKey: Guid(93ee33ee81d714b1cb6d78f4585eeddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/license.txt using Guid(93ee33ee81d714b1cb6d78f4585eeddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c8d0e7e80ce968d3daee79d2bea012') in 0.008267 seconds
-  Import took 0.014581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.867292 seconds.
-  path: Assets/Models/materials
-  artifactKey: Guid(9e6f7fcbbd1e648c5adfaef5e81e6ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/materials using Guid(9e6f7fcbbd1e648c5adfaef5e81e6ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab344d69de8a173d729ae19f25251aa') in 0.001359 seconds
-  Import took 0.008512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 76.934772 seconds.
-  path: Assets/Models/Meatball--es5U2Xg1pxS
-  artifactKey: Guid(ea5c5b4db9a954b49ad7583f67616c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball--es5U2Xg1pxS using Guid(ea5c5b4db9a954b49ad7583f67616c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfc0504d8a5738566cbb7cac9ccd843') in 0.001037 seconds
-  Import took 0.004770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.487603 seconds.
-  path: Assets/Models/Meatball--es5U2Xg1pxS/Meatball.obj
-  artifactKey: Guid(6d9b3d07934f848849800de0b19ed578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball--es5U2Xg1pxS/Meatball.obj using Guid(6d9b3d07934f848849800de0b19ed578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a2cfe1e9819124fbcae25b0ccf7293') in 0.679864 seconds
-  Import took 0.684690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Models/Meatball--es5U2Xg1pxS/thumbnail.png
-  artifactKey: Guid(fd88408cd280a417e96d363bef8153e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball--es5U2Xg1pxS/thumbnail.png using Guid(fd88408cd280a417e96d363bef8153e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc11fb54643c46d898aa030efcc4c78') in 0.058895 seconds
-  Import took 0.063020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.606603 seconds.
-  path: Assets/Models/Meatball--es5U2Xg1pxS/Meatball.obj
-  artifactKey: Guid(6d9b3d07934f848849800de0b19ed578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball--es5U2Xg1pxS/Meatball.obj using Guid(6d9b3d07934f848849800de0b19ed578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9232fb6846c2086f924ad83df4065c1a') in 0.800815 seconds
-  Import took 0.806146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Models/Meatball--es5U2Xg1pxS/Meatball.mtl
-  artifactKey: Guid(76279e5e686904ea084319944aeae3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball--es5U2Xg1pxS/Meatball.mtl using Guid(76279e5e686904ea084319944aeae3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816f8b4f120ec3c0c69fff3cf2d051ec') in 0.010981 seconds
-  Import took 0.014983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 67.928670 seconds.
-  path: Assets/Models/Meatball--es5U2Xg1pxS/Meatball.obj
-  artifactKey: Guid(6d9b3d07934f848849800de0b19ed578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball--es5U2Xg1pxS/Meatball.obj using Guid(6d9b3d07934f848849800de0b19ed578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6e098995da55caa26b02825be0d74c') in 0.670871 seconds
-  Import took 0.676191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 443.243507 seconds.
-  path: Assets/Models/Meatball--es5U2Xg1pxS/Meatball.obj
-  artifactKey: Guid(6d9b3d07934f848849800de0b19ed578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball--es5U2Xg1pxS/Meatball.obj using Guid(6d9b3d07934f848849800de0b19ed578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730b3ce3906cee53ceeb7fc46dfe24af') in 0.713009 seconds
-  Import took 0.722143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 67.176420 seconds.
-  path: Assets/Models/Meatball--es5U2Xg1pxS/Meatball.obj
-  artifactKey: Guid(6d9b3d07934f848849800de0b19ed578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball--es5U2Xg1pxS/Meatball.obj using Guid(6d9b3d07934f848849800de0b19ed578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156366795de9bdd517e227c9e4737a59') in 0.729179 seconds
-  Import took 0.734776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.053505 seconds.
-  path: Assets/Models/Meatball--es5U2Xg1pxS/Meatball.obj
-  artifactKey: Guid(6d9b3d07934f848849800de0b19ed578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball--es5U2Xg1pxS/Meatball.obj using Guid(6d9b3d07934f848849800de0b19ed578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f650e76a152b220f92468ed4961f88') in 0.754553 seconds
-  Import took 0.760415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.815429 seconds.
-  path: Assets/Models/Meatball--es5U2Xg1pxS/Meatball.obj
-  artifactKey: Guid(6d9b3d07934f848849800de0b19ed578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball--es5U2Xg1pxS/Meatball.obj using Guid(6d9b3d07934f848849800de0b19ed578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8eadae06c34420b248150ea0c1f7d4') in 0.696480 seconds
-  Import took 0.702643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.998707 seconds.
-  path: Assets/Models/Meatball--es5U2Xg1pxS/Meatball.obj
-  artifactKey: Guid(6d9b3d07934f848849800de0b19ed578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball--es5U2Xg1pxS/Meatball.obj using Guid(6d9b3d07934f848849800de0b19ed578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b447168d5bad5e86b1a1ba52377782c9') in 0.691528 seconds
-  Import took 0.696791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 375.653743 seconds.
-  path: Assets/Prefabs/Meatball1.prefab
-  artifactKey: Guid(165591d0edab84c36a385472aa40689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball1.prefab using Guid(165591d0edab84c36a385472aa40689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46342f72f702af199af25d86dd642a4') in 0.029141 seconds
-  Import took 0.037105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.458586 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(596f4bfe96ce3403fb1c2136a794cc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(596f4bfe96ce3403fb1c2136a794cc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac155b6d8b7c271c0343c20f4049940c') in 0.052048 seconds
-  Import took 0.057108 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.02 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 192.6 MB.
-System memory in use after: 192.6 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2465.
-Total: 23.007888 ms (FindLiveObjects: 0.861348 ms CreateObjectMapping: 0.159265 ms MarkObjects: 21.790231 ms  DeleteObjects: 0.195684 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 213.075943 seconds.
-  path: Assets/Prefabs/ReferenceImageLibrary.asset
-  artifactKey: Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ReferenceImageLibrary.asset using Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83cb8cc8bf0e1e2c84ba5a5342c8f3d') in 0.726322 seconds
-  Import took 0.738695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 325.402219 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(596f4bfe96ce3403fb1c2136a794cc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(596f4bfe96ce3403fb1c2136a794cc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4752409e16fd1de2a7513474cb59f365') in 0.097869 seconds
-  Import took 0.131651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.168097 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(596f4bfe96ce3403fb1c2136a794cc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(596f4bfe96ce3403fb1c2136a794cc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5116fe5042a8357dfc76dc1404619c7b') in 0.029774 seconds
-  Import took 0.035014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.212941 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(596f4bfe96ce3403fb1c2136a794cc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(596f4bfe96ce3403fb1c2136a794cc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ae057cb9cf21d52ad729376469dfb7') in 0.045195 seconds
-  Import took 0.052280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.739671 seconds.
-  path: Assets/Models/Meatball
-  artifactKey: Guid(ea5c5b4db9a954b49ad7583f67616c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball using Guid(ea5c5b4db9a954b49ad7583f67616c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55635d47710c3a1ca55d1fbab2c8582b') in 0.001937 seconds
-  Import took 0.006767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.610265 seconds.
-  path: Assets/Models/Meatball/Meatball.gltf
-  artifactKey: Guid(6c61c047f2e7c45c6b79d8dce114dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball/Meatball.gltf using Guid(6c61c047f2e7c45c6b79d8dce114dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9659c5993ccb01531eaad6e88257df') in 0.012493 seconds
-  Import took 0.017775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000672 seconds.
-  path: Assets/Models/Meatball/Meatball.gltf
-  artifactKey: Guid(6c61c047f2e7c45c6b79d8dce114dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball/Meatball.gltf using Guid(6c61c047f2e7c45c6b79d8dce114dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9659c5993ccb01531eaad6e88257df') in 0.003463 seconds
-  Import took 0.007147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.787783 seconds.
-  path: Assets/Models/Meatball/Meatball.bin
-  artifactKey: Guid(cd7143f05df0a46b78b5dadbf34b5ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Meatball/Meatball.bin using Guid(cd7143f05df0a46b78b5dadbf34b5ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a086fc6e5485b9412e2eb30f1b95cb2') in 0.015096 seconds
-  Import took 0.019847 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.27 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 193.0 MB.
-System memory in use after: 193.0 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2465.
-Total: 21.152660 ms (FindLiveObjects: 0.347235 ms CreateObjectMapping: 0.082084 ms MarkObjects: 20.253751 ms  DeleteObjects: 0.467523 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 537.212556 seconds.
-  path: Assets/Prefabs/Meatball 1.prefab
-  artifactKey: Guid(9a1a8026d1b444b3baac2d766fbfa46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball 1.prefab using Guid(9a1a8026d1b444b3baac2d766fbfa46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd682ec8ddadd9d6499de13125970b801') in 0.101033 seconds
-  Import took 0.125341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.594953 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(9a1a8026d1b444b3baac2d766fbfa46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(9a1a8026d1b444b3baac2d766fbfa46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971b07c0b062e9a545bc27ec3ef23c7d') in 0.030206 seconds
-  Import took 0.036633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 450.994878 seconds.
-  path: Assets/Prefabs/Meatball Variant.prefab
-  artifactKey: Guid(c16a22c2448a04e14a4a6755c64c045b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball Variant.prefab using Guid(c16a22c2448a04e14a4a6755c64c045b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f2be0045f03121c6c15335827cfdfa') in 0.059385 seconds
-  Import took 0.065070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.589032 seconds.
-  path: Assets/Prefabs/Meatball 1.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball 1.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd20386833a933e7521646e66b17df2') in 0.037586 seconds
-  Import took 0.043386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003145 seconds.
-  path: Assets/Prefabs/Meatball 1.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball 1.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd20386833a933e7521646e66b17df2') in 0.019968 seconds
-  Import took 0.023642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.655369 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7a5bb24e6e6412287ba5278860107c') in 0.043888 seconds
-  Import took 0.051981 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 194.2 MB.
-System memory in use after: 194.3 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2465.
-Total: 19.209624 ms (FindLiveObjects: 0.301503 ms CreateObjectMapping: 0.069351 ms MarkObjects: 18.743865 ms  DeleteObjects: 0.093393 ms)
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001159 seconds.
+Registered in 0.001470 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.418 seconds
+- Completed reload, in  1.141 seconds
 Platform modules already initialized, skipping
 Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 231.1 MB.
-System memory in use after: 231.1 MB.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.6 MB.
+System memory in use after: 152.6 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2469.
-Total: 4.481431 ms (FindLiveObjects: 0.249115 ms CreateObjectMapping: 0.075342 ms MarkObjects: 4.052674 ms  DeleteObjects: 0.103195 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2424.
+Total: 2.177182 ms (FindLiveObjects: 0.233428 ms CreateObjectMapping: 0.071953 ms MarkObjects: 1.813704 ms  DeleteObjects: 0.056754 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 2.00 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 193.1 MB.
-System memory in use after: 193.1 MB.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.8 MB.
+System memory in use after: 114.9 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2469.
-Total: 2.479907 ms (FindLiveObjects: 0.290368 ms CreateObjectMapping: 0.097033 ms MarkObjects: 1.996637 ms  DeleteObjects: 0.094521 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2424.
+Total: 2.586378 ms (FindLiveObjects: 0.220569 ms CreateObjectMapping: 0.078238 ms MarkObjects: 2.235786 ms  DeleteObjects: 0.050503 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1569.782777 seconds.
+  Time since last request: 1259.189659 seconds.
   path: Assets/Prefabs/ReferenceImageLibrary.asset
   artifactKey: Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ReferenceImageLibrary.asset using Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658d3e93e9acc9f06fcff1bc14e720cf') in 0.674591 seconds
-  Import took 0.682397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 358.462658 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefce1795d38ed1be5f5330ce430c700') in 0.194853 seconds
-  Import took 0.220996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.299137 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543fa78d7db28caf0da062fceb1de2a3') in 0.035121 seconds
-  Import took 0.040592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.797435 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4fdafef046a664c1031bec2b02baf5') in 0.028544 seconds
-  Import took 0.033799 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.87 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 194.6 MB.
-System memory in use after: 194.6 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2470.
-Total: 11.040314 ms (FindLiveObjects: 0.318749 ms CreateObjectMapping: 0.092446 ms MarkObjects: 10.528197 ms  DeleteObjects: 0.099060 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 434.047988 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa483e8dede009a03c8478f1deddbe81') in 0.098395 seconds
-  Import took 0.125703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.707999 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99fc79fcf3bc441f1433ec7a31e1f7f') in 0.036127 seconds
-  Import took 0.042725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.478590 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab482ce403e669157f8c853f354d8393') in 0.046867 seconds
-  Import took 0.058148 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001184 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.338 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 232.1 MB.
-System memory in use after: 232.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2474.
-Total: 4.384055 ms (FindLiveObjects: 0.215225 ms CreateObjectMapping: 0.072908 ms MarkObjects: 3.946863 ms  DeleteObjects: 0.147577 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.81 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 194.1 MB.
-System memory in use after: 194.1 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2474.
-Total: 5.202080 ms (FindLiveObjects: 0.878795 ms CreateObjectMapping: 0.119492 ms MarkObjects: 4.034247 ms  DeleteObjects: 0.167838 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001776 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.435 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 232.4 MB.
-System memory in use after: 232.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2478.
-Total: 2.741948 ms (FindLiveObjects: 0.322457 ms CreateObjectMapping: 0.090704 ms MarkObjects: 2.209724 ms  DeleteObjects: 0.117782 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 684.779978 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc772ae2022294dbe06d51c49d5dc596') in 0.144504 seconds
-  Import took 0.149768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.260151 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc2fa3e5b8b04a0e38d5bbd997a30df') in 0.028252 seconds
-  Import took 0.032965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.192047 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd39d1b9b52bc6e03afe4406380fa88') in 0.031295 seconds
-  Import took 0.036591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.205004 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3cbd56e542535232992f3c8dcf10d7') in 0.023923 seconds
-  Import took 0.029322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.501926 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948a11e2718932ca7843a4d14ddd3722') in 0.025548 seconds
-  Import took 0.030745 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.29 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.7 MB.
-System memory in use after: 195.7 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2479.
-Total: 20.607057 ms (FindLiveObjects: 0.842122 ms CreateObjectMapping: 0.104060 ms MarkObjects: 19.471352 ms  DeleteObjects: 0.187276 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001350 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.435 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 233.2 MB.
-System memory in use after: 233.2 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2483.
-Total: 2.325734 ms (FindLiveObjects: 0.291776 ms CreateObjectMapping: 0.076075 ms MarkObjects: 1.853287 ms  DeleteObjects: 0.103734 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.1 MB.
-System memory in use after: 195.2 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2483.
-Total: 3.018028 ms (FindLiveObjects: 0.307588 ms CreateObjectMapping: 0.148536 ms MarkObjects: 2.417445 ms  DeleteObjects: 0.142695 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002019 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.577 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 233.4 MB.
-System memory in use after: 233.5 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2487.
-Total: 2.318615 ms (FindLiveObjects: 0.319622 ms CreateObjectMapping: 0.081916 ms MarkObjects: 1.810745 ms  DeleteObjects: 0.105228 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 742.232251 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e192e1c6237b71a709a92e2ac96614') in 0.132583 seconds
-  Import took 0.139851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e192e1c6237b71a709a92e2ac96614') in 0.033726 seconds
-  Import took 0.038378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.428059 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71757d1cb8f86ddaf30fc4784dd517e') in 0.039362 seconds
-  Import took 0.045874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.905184 seconds.
-  path: Assets/Prefabs/Meatball.prefab
-  artifactKey: Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meatball.prefab using Guid(3a758819dfe9c4847b99da1962a01cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29291a9818e866a4a8760149a82623d0') in 0.033293 seconds
-  Import took 0.038242 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.6 MB.
-System memory in use after: 196.7 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2488.
-Total: 3.161401 ms (FindLiveObjects: 0.234195 ms CreateObjectMapping: 0.085661 ms MarkObjects: 2.705102 ms  DeleteObjects: 0.134898 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 82.951772 seconds.
-  path: Assets/Prefabs/ReferenceImageLibrary.asset
-  artifactKey: Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ReferenceImageLibrary.asset using Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a964ef7ea1267f661e8419128dee4be0') in 0.709822 seconds
-  Import took 0.716132 seconds .
+Start importing Assets/Prefabs/ReferenceImageLibrary.asset using Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8c616352ea90e8b0db50aa632b561b') in 1.799436 seconds
+  Import took 1.803792 seconds .
 

@@ -1,21 +1,27 @@
 ﻿<Properties StartupConfiguration="{9C8B0704-BBA2-41A4-65D0-B13B151D1113}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ImageTracking.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SpawnObjectOnPlane.cs">
     <Files>
-      <File FileName="Assets/Scripts/SpawnObjectOnPlane.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ImageTracking.cs" Line="91" Column="47" />
-      <File FileName="Assets/Scripts/PlaneDetectionToggle.cs" />
+      <File FileName="Assets/Scripts/SpawnObjectOnPlane.cs" Line="26" Column="39" />
+      <File FileName="Assets/Scripts/ImageTracking.cs" Line="4" Column="1" />
+      <File FileName="Assets/Scripts/PlaneDetectionToggle.cs" Line="12" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ARCookingHelper" expanded="True" selected="True" />
+          <Node name="ARCookingHelper" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="SpawnObjectOnPlane.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cea0f65a-c139-483f-9139-266881c5dfcc" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cd2120f9-5cf0-41bc-a840-adef012c3ed8" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
