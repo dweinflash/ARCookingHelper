@@ -12,6 +12,7 @@ public class ImageTracking : MonoBehaviour
     [SerializeField]
     private Dropdown recipeDropDown;
     private List<string> recipeList;
+    private AnimDropdown recipeDropDownAnim;
 
     [SerializeField]
     private Text itemsText;
@@ -26,6 +27,7 @@ public class ImageTracking : MonoBehaviour
     private void Awake()
     {
         recipeList = new List<string>();
+        recipeDropDownAnim = recipeDropDown.GetComponent<AnimDropdown>();
 
         numSeenObjects = 0;
         itemsString = "Items:\n";
@@ -98,6 +100,7 @@ public class ImageTracking : MonoBehaviour
             {
                 recipeList.Add("Spaghetti");
                 recipeDropDown.options.Add(new Dropdown.OptionData() { text = "Spaghetti" });
+                recipeDropDownAnim.playAnimation();
             }
         }
     }

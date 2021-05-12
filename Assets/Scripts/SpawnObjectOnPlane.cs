@@ -20,6 +20,9 @@ public class SpawnObjectOnPlane : MonoBehaviour
     private Dropdown recipeDropDown;
 
     [SerializeField]
+    private Text toggleButtonText;
+
+    [SerializeField]
     private GameObject meatballPrefab;
     private double meatballX = 0.1933;
     private double meatballY = -0.0594;
@@ -56,7 +59,7 @@ public class SpawnObjectOnPlane : MonoBehaviour
     private void Update()
     {
         // user not touching screen
-        if (!TryGetTouchPosition(out Vector2 touchPosition))
+        if (!TryGetTouchPosition(out Vector2 touchPosition)  || toggleButtonText.text == "Enable")
         {
             return;
         }

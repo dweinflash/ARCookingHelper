@@ -70,6 +70,7 @@
     <Compile Include="Assets/Scripts/ImageTracking.cs" />
     <Compile Include="Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserWindow.cs" />
     <Compile Include="Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserManager.cs" />
+    <Compile Include="Assets/Scripts/AnimDropdown.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFFlipTexture.shader" />

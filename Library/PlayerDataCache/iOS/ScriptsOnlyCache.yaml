@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AnimDropdown
     - ImageTracking
     - PlaneDetectionToggle
     - SpawnObjectOnPlane
@@ -33,6 +34,14 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -72,7 +81,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -132,6 +151,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5010}
     - Class: 114
       Script: {instanceID: 5070}
+    - Class: 114
+      Script: {instanceID: 18324}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -443,7 +464,7 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
-      Hash: 16ee4a7535b8831c453db0a453f393aa
+      Hash: b13a6c64457c89e287630e5ef989ba4a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnObjectOnPlane
@@ -1275,7 +1296,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
     className: XRUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AnimDropdown
   platform: 9
   scenePathNames:
   - Assets/Scenes/ImageTracking.unity
-  playerPath: /Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Builds/PlaneTracking
+  playerPath: /Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Builds/Anim
