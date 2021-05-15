@@ -1,5 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
@@ -23,6 +26,9 @@ public class SpawnObjectOnPlane : MonoBehaviour
     private Text toggleButtonText;
 
     [SerializeField]
+    private Text actionText;
+
+    [SerializeField]
     private GameObject meatballPrefab;
     private double meatballX = 0.1933;
     private double meatballY = -0.0594;
@@ -33,15 +39,16 @@ public class SpawnObjectOnPlane : MonoBehaviour
     private GameObject spawnedVideoScreen;
 
     [SerializeField]
-    private VideoClip video;
+    private VideoClip[] videos;
     private VideoPlayer videoPlayer;
-    private bool playVideo = false;
+    private int videoNumPlays = 0;
 
     static List<ARRaycastHit> s_Hits = new List<ARRaycastHit>();
 
     private void Awake()
     {
         raycastManager = GetComponent<ARRaycastManager>();
+        actionText.text = "";
     }
 
     bool TryGetTouchPosition(out Vector2 touchPosition)
@@ -57,7 +64,7 @@ public class SpawnObjectOnPlane : MonoBehaviour
     }
 
     private void Update()
-    {
+    {   
         // user not touching screen
         if (!TryGetTouchPosition(out Vector2 touchPosition)  || toggleButtonText.text == "Enable")
         {
@@ -85,8 +92,8 @@ public class SpawnObjectOnPlane : MonoBehaviour
                 spawnedVideoScreen = Instantiate(videoScreenPrefab, position, hitPose.rotation);
                 spawnedVideoScreen.transform.Rotate(0.0f, 180.0f, 0.0f, Space.Self);
                 videoPlayer = spawnedVideoScreen.AddComponent<UnityEngine.Video.VideoPlayer>();
+                videoPlayer.isLooping = true;
                 videoPlayer.playOnAwake = false;
-                videoPlayer.clip = video;
             }
             else
             {
@@ -112,15 +119,18 @@ public class SpawnObjectOnPlane : MonoBehaviour
             return;
         }
 
-        playVideo = !playVideo;
-
-        if (playVideo)
+        if (videoNumPlays == videos.Length-1)
         {
-            videoPlayer.Play();
+            videoPlayer.Stop();
+            videoNumPlays = 0;
+            actionText.text = "";
         }
         else
         {
-            videoPlayer.Pause();
+            videoPlayer.clip = videos[videoNumPlays];
+            actionText.text = videos[videoNumPlays].ToString();
+            videoNumPlays++;
+            videoPlayer.Play();
         }
     }
 }

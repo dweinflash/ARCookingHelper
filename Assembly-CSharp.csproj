@@ -69,10 +69,11 @@
     <Compile Include="Assets/Scripts/PlaneDetectionToggle.cs" />
     <Compile Include="Assets/Scripts/ImageTracking.cs" />
     <Compile Include="Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserWindow.cs" />
-    <Compile Include="Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserManager.cs" />
     <Compile Include="Assets/Scripts/AnimDropdown.cs" />
+    <Compile Include="Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserManager.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets/Annotations/ACTIONS_P01_08.txt" />
      <None Include="Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFFlipTexture.shader" />
      <None Include="Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFColorSpace.cginc" />
      <None Include="Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFPackOccMetalRough.shader" />

@@ -2558,17 +2558,21 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Video.VideoPlayer
 
-		//System.Void UnityEngine.Video.VideoPlayer::Pause()
-		void Register_UnityEngine_Video_VideoPlayer_Pause();
-		Register_UnityEngine_Video_VideoPlayer_Pause();
-
 		//System.Void UnityEngine.Video.VideoPlayer::Play()
 		void Register_UnityEngine_Video_VideoPlayer_Play();
 		Register_UnityEngine_Video_VideoPlayer_Play();
 
+		//System.Void UnityEngine.Video.VideoPlayer::Stop()
+		void Register_UnityEngine_Video_VideoPlayer_Stop();
+		Register_UnityEngine_Video_VideoPlayer_Stop();
+
 		//System.Void UnityEngine.Video.VideoPlayer::set_clip(UnityEngine.Video.VideoClip)
 		void Register_UnityEngine_Video_VideoPlayer_set_clip();
 		Register_UnityEngine_Video_VideoPlayer_set_clip();
+
+		//System.Void UnityEngine.Video.VideoPlayer::set_isLooping(System.Boolean)
+		void Register_UnityEngine_Video_VideoPlayer_set_isLooping();
+		Register_UnityEngine_Video_VideoPlayer_set_isLooping();
 
 		//System.Void UnityEngine.Video.VideoPlayer::set_playOnAwake(System.Boolean)
 		void Register_UnityEngine_Video_VideoPlayer_set_playOnAwake();
