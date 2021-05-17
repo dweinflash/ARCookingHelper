@@ -18,6 +18,8 @@ struct Action_1_t35A46FAEE6B0A26D311444DF75B6EAFC59EBD914;
 struct Action_2_tF10732C74E0C1A51A43D2ADBE57C998FDD67583D;
 // System.Collections.Generic.Dictionary`2<System.String,System.Boolean>
 struct Dictionary_2_t99F1CF0D8EAD35142580D7CF6EC736C063B6190C;
+// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject>
+struct Dictionary_2_tADDBF4C67A82C92CD16099CD166D7F72E8DCB13C;
 // System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.ARRaycastHit>
 struct List_1_tDA68EC1B5CE9809C8709C1E58A7D0F4ACBB1252D;
 // System.Collections.Generic.List`1<System.String>
@@ -28,6 +30,8 @@ struct ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726;
 struct CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34;
 // UnityEngine.Color[]
 struct ColorU5BU5D_t358DD89F511301E663AD9157305B94A2DEFF8834;
+// UnityEngine.GameObject[]
+struct GameObjectU5BU5D_tA88FC1A1FC9D4D73D0B3984D4B0ECE88F4C47642;
 // UnityEngine.TextureFormat[]
 struct TextureFormatU5BU5D_tC081C559AF0CE6678E9673429ADDC9B93B6B45CE;
 // UnityEngine.Video.VideoClip[]
@@ -3333,6 +3337,10 @@ public:
 	RuntimeObject* ___refLibrary_11;
 	// UnityEngine.XR.ARFoundation.ARTrackedImageManager ImageTracking::trackedImageManager
 	ARTrackedImageManager_tB916E34D053E6712190F2BAE46E21D76A0882FF2 * ___trackedImageManager_12;
+	// UnityEngine.GameObject[] ImageTracking::placeablePrefabs
+	GameObjectU5BU5D_tA88FC1A1FC9D4D73D0B3984D4B0ECE88F4C47642* ___placeablePrefabs_13;
+	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject> ImageTracking::spawnedPrefabs
+	Dictionary_2_tADDBF4C67A82C92CD16099CD166D7F72E8DCB13C * ___spawnedPrefabs_14;
 
 public:
 	inline static int32_t get_offset_of_recipeDropDown_4() { return static_cast<int32_t>(offsetof(ImageTracking_t06C356D3B06EA642613D7FC66E71B6D57A5AFF80, ___recipeDropDown_4)); }
@@ -3413,6 +3421,24 @@ public:
 	{
 		___trackedImageManager_12 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___trackedImageManager_12), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_placeablePrefabs_13() { return static_cast<int32_t>(offsetof(ImageTracking_t06C356D3B06EA642613D7FC66E71B6D57A5AFF80, ___placeablePrefabs_13)); }
+	inline GameObjectU5BU5D_tA88FC1A1FC9D4D73D0B3984D4B0ECE88F4C47642* get_placeablePrefabs_13() const { return ___placeablePrefabs_13; }
+	inline GameObjectU5BU5D_tA88FC1A1FC9D4D73D0B3984D4B0ECE88F4C47642** get_address_of_placeablePrefabs_13() { return &___placeablePrefabs_13; }
+	inline void set_placeablePrefabs_13(GameObjectU5BU5D_tA88FC1A1FC9D4D73D0B3984D4B0ECE88F4C47642* value)
+	{
+		___placeablePrefabs_13 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___placeablePrefabs_13), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_spawnedPrefabs_14() { return static_cast<int32_t>(offsetof(ImageTracking_t06C356D3B06EA642613D7FC66E71B6D57A5AFF80, ___spawnedPrefabs_14)); }
+	inline Dictionary_2_tADDBF4C67A82C92CD16099CD166D7F72E8DCB13C * get_spawnedPrefabs_14() const { return ___spawnedPrefabs_14; }
+	inline Dictionary_2_tADDBF4C67A82C92CD16099CD166D7F72E8DCB13C ** get_address_of_spawnedPrefabs_14() { return &___spawnedPrefabs_14; }
+	inline void set_spawnedPrefabs_14(Dictionary_2_tADDBF4C67A82C92CD16099CD166D7F72E8DCB13C * value)
+	{
+		___spawnedPrefabs_14 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___spawnedPrefabs_14), (void*)value);
 	}
 };
 
@@ -3928,7 +3954,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3366[2] =
 	AnimDropdown_t734E84963601DD70BDA49545C64952B6CCB52FD7::get_offset_of_anim_4(),
 	AnimDropdown_t734E84963601DD70BDA49545C64952B6CCB52FD7::get_offset_of_audioSource_5(),
 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3367[9] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3367[11] = 
 {
 	ImageTracking_t06C356D3B06EA642613D7FC66E71B6D57A5AFF80::get_offset_of_recipeDropDown_4(),
 	ImageTracking_t06C356D3B06EA642613D7FC66E71B6D57A5AFF80::get_offset_of_recipeList_5(),
@@ -3939,6 +3965,8 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3367[9] =
 	ImageTracking_t06C356D3B06EA642613D7FC66E71B6D57A5AFF80::get_offset_of_seenObjects_10(),
 	ImageTracking_t06C356D3B06EA642613D7FC66E71B6D57A5AFF80::get_offset_of_refLibrary_11(),
 	ImageTracking_t06C356D3B06EA642613D7FC66E71B6D57A5AFF80::get_offset_of_trackedImageManager_12(),
+	ImageTracking_t06C356D3B06EA642613D7FC66E71B6D57A5AFF80::get_offset_of_placeablePrefabs_13(),
+	ImageTracking_t06C356D3B06EA642613D7FC66E71B6D57A5AFF80::get_offset_of_spawnedPrefabs_14(),
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3368[2] = 
 {
