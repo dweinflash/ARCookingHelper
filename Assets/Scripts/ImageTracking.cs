@@ -24,6 +24,11 @@ public class ImageTracking : MonoBehaviour
     private IReferenceImageLibrary refLibrary;
     private ARTrackedImageManager trackedImageManager;
 
+    [SerializeField]
+    private GameObject[] placeablePrefabs;
+
+    private Dictionary<string, GameObject> spawnedPrefabs = new Dictionary<string, GameObject>();
+
     private void Awake()
     {
         recipeList = new List<string>();
@@ -40,6 +45,13 @@ public class ImageTracking : MonoBehaviour
         for (int i = 0; i < refLibrary.count; i++)
         {
             seenObjects.Add(refLibrary[i].name, false);
+        }
+
+        foreach(GameObject prefab in placeablePrefabs)
+        {
+            GameObject newPrefab = Instantiate(prefab, Vector3.zero, Quaternion.identity);
+            newPrefab.name = prefab.name;
+            spawnedPrefabs.Add(prefab.name, newPrefab);
         }
     }
 
@@ -65,6 +77,10 @@ public class ImageTracking : MonoBehaviour
         foreach (ARTrackedImage trackedImage in eventArgs.updated)
         {
             UpdateImage(trackedImage);
+        }
+        foreach (ARTrackedImage trackedImage in eventArgs.removed)
+        {
+            spawnedPrefabs[trackedImage.name].SetActive(false);
         }
 
         if (prevSeenObjects < numSeenObjects)
@@ -111,5 +127,11 @@ public class ImageTracking : MonoBehaviour
         string name = trackedImage.referenceImage.name;
         seenObjects[name] = true;
         numSeenObjects += 1;
+
+        Vector3 position = trackedImage.transform.position;
+
+        GameObject prefab = spawnedPrefabs[name];
+        prefab.transform.position = position;
+        prefab.SetActive(true);
     }
 }
