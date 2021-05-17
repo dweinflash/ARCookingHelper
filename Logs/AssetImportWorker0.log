@@ -12,377 +12,73 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62674
+62965
 Successfully changed project path to: /Users/dweinflash/Documents/UCSB/AR/ARCookingHelper
 /Users/dweinflash/Documents/UCSB/AR/ARCookingHelper
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 42.03 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Assets
 GfxDevice: creating device client; threaded=0
-2021-05-14 14:50:10.290 Unity[67532:2017977] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-05-14 14:50:10.290 Unity[67532:2017977] Metal devices available: 1
-2021-05-14 14:50:10.290 Unity[67532:2017977] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-05-14 14:50:10.290 Unity[67532:2017977] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-05-17 15:31:23.193 Unity[79837:2471482] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-05-17 15:31:23.193 Unity[79837:2471482] Metal devices available: 1
+2021-05-17 15:31:23.193 Unity[79837:2471482] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-05-17 15:31:23.193 Unity[79837:2471482] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56837
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001890 seconds.
+Registered in 0.002597 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 41.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 38.90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.928 seconds
+- Completed reload, in  2.033 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007498 seconds.
+Registered in 0.005466 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 38.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.238 seconds
+- Completed reload, in  1.262 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1953 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 147.7 MB.
-System memory in use after: 147.7 MB.
+System memory in use after: 147.8 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2397.
-Total: 3.208173 ms (FindLiveObjects: 0.234147 ms CreateObjectMapping: 0.123063 ms MarkObjects: 2.765849 ms  DeleteObjects: 0.084102 ms)
+Total: 2.644116 ms (FindLiveObjects: 0.264029 ms CreateObjectMapping: 0.136550 ms MarkObjects: 2.139190 ms  DeleteObjects: 0.102915 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Videos/P01_08/4_take_glass.mp4
-  artifactKey: Guid(05712310c98464bc0bdad8bf0acbe35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/4_take_glass.mp4 using Guid(05712310c98464bc0bdad8bf0acbe35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547e301e49c977d5c36258732f3ad2f9') in 1.030988 seconds
-  Import took 1.035218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Videos/P01_08/14_fold_cloth.mp4
-  artifactKey: Guid(b3bc21603158b4c34aa1c9623567f44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/14_fold_cloth.mp4 using Guid(b3bc21603158b4c34aa1c9623567f44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef3136d439d62f5f1282ed76a467556') in 0.001764 seconds
-  Import took 0.005298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Videos/P01_08/10_wash_cup.mp4
-  artifactKey: Guid(8304a0c9fb1074e7e80a54261cbb1c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/10_wash_cup.mp4 using Guid(8304a0c9fb1074e7e80a54261cbb1c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bac86b03375fc1d065646d155d231d') in 0.002191 seconds
-  Import took 0.005956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000426 seconds.
-  path: Assets/Videos/P01_08/9_wash_spoon.mp4
-  artifactKey: Guid(739c6eeccf3c64c7db721f7dff36f40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/9_wash_spoon.mp4 using Guid(739c6eeccf3c64c7db721f7dff36f40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b12214a59f64c01387e4497480e5f98') in 0.001739 seconds
-  Import took 0.005422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Videos/P01_08/11_put_water.mp4
-  artifactKey: Guid(a471a2190d7be489596353ff7d89a0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/11_put_water.mp4 using Guid(a471a2190d7be489596353ff7d89a0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e42dc2497e30554c73c72ed7100fd87') in 0.002239 seconds
-  Import took 0.005151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Videos/P01_08/7_pour_cup.mp4
-  artifactKey: Guid(b23909b6f5f684072adc9256aeca55ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/7_pour_cup.mp4 using Guid(b23909b6f5f684072adc9256aeca55ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61080cfc72bfc4617c8defd4516466e1') in 0.001707 seconds
-  Import took 0.004992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Videos/P01_08
-  artifactKey: Guid(785f1311c9754460692e4d88489a9379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08 using Guid(785f1311c9754460692e4d88489a9379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8328fa17802aa8df1afb72fdf5a364ae') in 0.001356 seconds
-  Import took 0.005206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Videos/P01_08/6_pour_liquid.mp4
-  artifactKey: Guid(5d1627d24dd3a468d909097e0845e70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/6_pour_liquid.mp4 using Guid(5d1627d24dd3a468d909097e0845e70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00b6b4be0e8b352d9f6a23b7098181e') in 0.002356 seconds
-  Import took 0.005663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Videos/P01_08/1_close_box.mp4
-  artifactKey: Guid(d14a24e6d79734c34a1f8fefaabfd497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/1_close_box.mp4 using Guid(d14a24e6d79734c34a1f8fefaabfd497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ad570794e23b3f3e70494b3fa814fc') in 0.002147 seconds
-  Import took 0.005576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Videos/P01_08/2_open_cupboard.mp4
-  artifactKey: Guid(8677627473103471ead1033e0aaa1cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/2_open_cupboard.mp4 using Guid(8677627473103471ead1033e0aaa1cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431641b6bca3d8a776f48282e52faf31') in 0.001685 seconds
-  Import took 0.004813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Videos/P01_08/17_drink_water.mp4
-  artifactKey: Guid(9dd75d64101b44725848957a362d1d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/17_drink_water.mp4 using Guid(9dd75d64101b44725848957a362d1d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce25964a2b46ba67a32f9323c94e2dc7') in 0.001705 seconds
-  Import took 0.005107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Videos/P01_08/3_put_cupboard.mp4
-  artifactKey: Guid(f9dc26f1cc5604465b9229f51aa3d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/3_put_cupboard.mp4 using Guid(f9dc26f1cc5604465b9229f51aa3d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215e8d0ea4d1dea41d33a4f1e01df845') in 0.001513 seconds
-  Import took 0.004660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Videos/P01_08/16_pour_water.mp4
-  artifactKey: Guid(5da873f046e1545cd998aaedf11bada7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/16_pour_water.mp4 using Guid(5da873f046e1545cd998aaedf11bada7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a26df1d7333617d5b74ec03b681c6c4') in 0.001766 seconds
-  Import took 0.005084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Videos/P01_08/5_put_liquid.mp4
-  artifactKey: Guid(1cc5d06cd5fd14f458832b55f20074dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/5_put_liquid.mp4 using Guid(1cc5d06cd5fd14f458832b55f20074dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0830591d8e70e90493a02b7701b478') in 0.001877 seconds
-  Import took 0.004919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Videos/P01_08/8_wash_cup.mp4
-  artifactKey: Guid(50728f8776a194fc792b8d1d0651abdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/8_wash_cup.mp4 using Guid(50728f8776a194fc792b8d1d0651abdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44e360864c383e61bc12db30cd62e47') in 0.001517 seconds
-  Import took 0.004020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Videos/P01_08/0_fold_bar:cereal.mp4
-  artifactKey: Guid(31abea5f423f340c0a0e8c358b01b3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/0_fold_bar:cereal.mp4 using Guid(31abea5f423f340c0a0e8c358b01b3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e501f25791ee2167cf5151d344c1bbca') in 0.002017 seconds
-  Import took 0.005287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Videos/P01_08/15_take_bottle.mp4
-  artifactKey: Guid(c8660efbcd8774f7581137e52e851ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/15_take_bottle.mp4 using Guid(c8660efbcd8774f7581137e52e851ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cee07eea4175701c5c2e3a2b320dd5') in 0.001538 seconds
-  Import took 0.004173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Videos/P01_08/13_hang_cloth.mp4
-  artifactKey: Guid(c143940bab2e841aa80b931125919c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/13_hang_cloth.mp4 using Guid(c143940bab2e841aa80b931125919c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800ba517768cc9cbf7e943c947204b62') in 0.001715 seconds
-  Import took 0.005387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Videos/P01_08/12_dry_hand.mp4
-  artifactKey: Guid(08a7237bddb574ee9b9b16b50cc64aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/12_dry_hand.mp4 using Guid(08a7237bddb574ee9b9b16b50cc64aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1ef9961507d7329e775377346624e6') in 0.001789 seconds
-  Import took 0.005548 seconds .
+  path: Assets/Videos/P01_08/0_fold_bar-cereal.mp4
+  artifactKey: Guid(5d63c17323a694807b8f4370c04e3b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Videos/P01_08/0_fold_bar-cereal.mp4 using Guid(5d63c17323a694807b8f4370c04e3b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ad95e04fbbae46be2acdb038a70641') in 1.023934 seconds
+  Import took 1.028514 seconds .
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001199 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.175 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1942 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.1 MB.
-System memory in use after: 151.2 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2401.
-Total: 3.421759 ms (FindLiveObjects: 0.614837 ms CreateObjectMapping: 0.135263 ms MarkObjects: 2.591993 ms  DeleteObjects: 0.078376 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001034 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.242 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1942 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.4 MB.
-System memory in use after: 151.4 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2405.
-Total: 2.625999 ms (FindLiveObjects: 0.397781 ms CreateObjectMapping: 0.087811 ms MarkObjects: 2.071536 ms  DeleteObjects: 0.067788 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.83 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 3.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.6 MB.
-System memory in use after: 113.7 MB.
+System memory in use before: 113.0 MB.
+System memory in use after: 113.1 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2405.
-Total: 2.768395 ms (FindLiveObjects: 0.224699 ms CreateObjectMapping: 0.075213 ms MarkObjects: 2.413837 ms  DeleteObjects: 0.052597 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001112 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.248 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1942 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.9 MB.
-System memory in use after: 151.9 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2409.
-Total: 6.265033 ms (FindLiveObjects: 0.265313 ms CreateObjectMapping: 0.073927 ms MarkObjects: 5.292087 ms  DeleteObjects: 0.632005 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001056 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.138 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1942 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.1 MB.
-System memory in use after: 152.1 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2413.
-Total: 2.078799 ms (FindLiveObjects: 0.213376 ms CreateObjectMapping: 0.059733 ms MarkObjects: 1.750849 ms  DeleteObjects: 0.053694 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001658 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.170 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1942 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.3 MB.
-System memory in use after: 152.4 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2417.
-Total: 2.373037 ms (FindLiveObjects: 0.261363 ms CreateObjectMapping: 0.066527 ms MarkObjects: 1.983451 ms  DeleteObjects: 0.060466 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001158 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.330 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1942 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.5 MB.
-System memory in use after: 152.6 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2421.
-Total: 2.676667 ms (FindLiveObjects: 0.337425 ms CreateObjectMapping: 0.080836 ms MarkObjects: 2.168650 ms  DeleteObjects: 0.088344 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.01 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.7 MB.
-System memory in use after: 114.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2421.
-Total: 5.573922 ms (FindLiveObjects: 0.245147 ms CreateObjectMapping: 0.066359 ms MarkObjects: 5.184144 ms  DeleteObjects: 0.076709 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.18 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.8 MB.
-System memory in use after: 114.9 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2421.
-Total: 18.288836 ms (FindLiveObjects: 0.751913 ms CreateObjectMapping: 0.138233 ms MarkObjects: 17.301323 ms  DeleteObjects: 0.096234 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2397.
+Total: 4.535162 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.084395 ms MarkObjects: 4.162697 ms  DeleteObjects: 0.061237 ms)
 
