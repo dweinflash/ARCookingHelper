@@ -11,6 +11,8 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.XR.ARCore.Editor.dll:
+    - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.ARFoundation.dll:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
@@ -56,6 +58,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Outline
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
   sceneClasses:
@@ -97,63 +100,69 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1486}
+      Script: {instanceID: 1580}
     - Class: 114
-      Script: {instanceID: 1514}
+      Script: {instanceID: 1610}
     - Class: 114
-      Script: {instanceID: 1624}
+      Script: {instanceID: 1722}
     - Class: 114
-      Script: {instanceID: 1638}
+      Script: {instanceID: 1736}
     - Class: 114
-      Script: {instanceID: 2134}
+      Script: {instanceID: 1810}
     - Class: 114
-      Script: {instanceID: 2522}
-    - Class: 114
-      Script: {instanceID: 2560}
+      Script: {instanceID: 2248}
     - Class: 114
       Script: {instanceID: 2648}
     - Class: 114
-      Script: {instanceID: 2658}
+      Script: {instanceID: 2684}
     - Class: 114
-      Script: {instanceID: 2842}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 3080}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3092}
+      Script: {instanceID: 2978}
     - Class: 114
-      Script: {instanceID: 3206}
+      Script: {instanceID: 3216}
     - Class: 114
-      Script: {instanceID: 3420}
+      Script: {instanceID: 3228}
     - Class: 114
-      Script: {instanceID: 3428}
+      Script: {instanceID: 3344}
     - Class: 114
-      Script: {instanceID: 3512}
+      Script: {instanceID: 3564}
     - Class: 114
-      Script: {instanceID: 3912}
+      Script: {instanceID: 3572}
     - Class: 114
-      Script: {instanceID: 3984}
+      Script: {instanceID: 3658}
     - Class: 114
-      Script: {instanceID: 4000}
+      Script: {instanceID: 4064}
     - Class: 114
-      Script: {instanceID: 4164}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 4280}
+      Script: {instanceID: 4152}
     - Class: 114
-      Script: {instanceID: 4404}
+      Script: {instanceID: 4326}
     - Class: 114
-      Script: {instanceID: 4686}
+      Script: {instanceID: 4444}
     - Class: 114
-      Script: {instanceID: 4818}
+      Script: {instanceID: 4572}
     - Class: 114
-      Script: {instanceID: 4852}
+      Script: {instanceID: 4864}
     - Class: 114
-      Script: {instanceID: 4976}
+      Script: {instanceID: 5000}
     - Class: 114
-      Script: {instanceID: 5012}
+      Script: {instanceID: 5036}
     - Class: 114
-      Script: {instanceID: 5072}
+      Script: {instanceID: 5168}
     - Class: 114
-      Script: {instanceID: 5144}
+      Script: {instanceID: 5206}
+    - Class: 114
+      Script: {instanceID: 5268}
+    - Class: 114
+      Script: {instanceID: 5342}
+    - Class: 114
+      Script: {instanceID: 18842}
+    - Class: 114
+      Script: {instanceID: 18846}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -958,6 +967,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARCore.dll
+    namespaceName: UnityEngine.XR.ARCore
+    className: ARCoreLoaderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.XR.ARKit.dll
     namespaceName: UnityEngine.XR.ARKit
     className: ARKitLoader
@@ -973,6 +988,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: TeleportationProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARCore.dll
+    namespaceName: UnityEngine.XR.ARCore
+    className: ARCoreLoader
   - hash:
       serializedVersion: 2
       Hash: cd0ecdca0166232906c6f2df9dddc3d3
@@ -1101,12 +1122,6 @@ ScriptsOnlyBuild:
     className: LocomotionSystem
   - hash:
       serializedVersion: 2
-      Hash: ef705ae677d649d6c0ff3b4060963abd
-    assemblyName: Unity.XR.ARFoundation.dll
-    namespaceName: UnityEngine.XR.ARFoundation
-    className: ARTrackedObjectManager
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -1117,6 +1132,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEngine.XR.LegacyInputHelpers
     className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: ef705ae677d649d6c0ff3b4060963abd
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARTrackedObjectManager
   - hash:
       serializedVersion: 2
       Hash: 8efe7e1208161b145fd1b63bb1207a01
@@ -1209,16 +1230,16 @@ ScriptsOnlyBuild:
     className: ARFaceManager
   - hash:
       serializedVersion: 2
-      Hash: cef7651ddeb949eae74c2a92489f07e5
-    assemblyName: Unity.XR.Interaction.Toolkit.dll
-    namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
-    className: TrackedDeviceGraphicRaycaster
-  - hash:
-      serializedVersion: 2
       Hash: 285f5d7c369d870b93f4a2cbcec118e4
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputDeviceDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: cef7651ddeb949eae74c2a92489f07e5
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
+    className: TrackedDeviceGraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: 584d80e9e648c45f564f6c0473440068
@@ -1306,4 +1327,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/Scenes/ImageTracking.unity
-  playerPath: /Users/dweinflash/Documents/UCSB/AR/ARCookingHelper/Builds/Anim
+  playerPath: /Users/sierrawang/CS291a/ARCookingHelper/iosBuilds

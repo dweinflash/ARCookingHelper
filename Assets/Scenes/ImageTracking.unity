@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964124, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -322,18 +322,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 505683efc25383a4f8b4327abe510d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 0
-  normalFillColor:
-    serializedVersion: 2
-    rgba: 13409054
-  warningFillColor:
-    serializedVersion: 2
-    rgba: 774397
-  doneFillColor:
-    serializedVersion: 2
-    rgba: 65314
-  warningLimit: 0
-  stopTimer: 0
 --- !u!114 &290096087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1259,7 +1247,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a66f6878e796104bb683185dfdc58aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 0}
 --- !u!114 &708858703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2041,7 +2028,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   recipeDropDown: {fileID: 426585211}
   itemsText: {fileID: 419954334}
-  placeablePrefabs: []
+  placeablePrefabs:
+  - {fileID: 6967593256523102157, guid: 7b70d2a6da0b54460a22a953b0d5d9f5, type: 3}
+  - {fileID: 4153123286504895815, guid: cfc3b85945f354e008c612a8366ee606, type: 3}
 --- !u!114 &1129110955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2088,8 +2077,8 @@ MonoBehaviour:
   videoScreenPrefab: {fileID: 4740392283864726185, guid: e923dad0ee8f4459a80d440579cb90fc, type: 3}
   videos:
   - {fileID: 32900000, guid: 5d63c17323a694807b8f4370c04e3b84, type: 3}
-  - {fileID: 32900000, guid: d14a24e6d79734c34a1f8fefaabfd497, type: 3}
-  - {fileID: 32900000, guid: 8677627473103471ead1033e0aaa1cb6, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 32900000, guid: f9dc26f1cc5604465b9229f51aa3d07d, type: 3}
   - {fileID: 32900000, guid: 05712310c98464bc0bdad8bf0acbe35a, type: 3}
   - {fileID: 32900000, guid: 1cc5d06cd5fd14f458832b55f20074dc, type: 3}
