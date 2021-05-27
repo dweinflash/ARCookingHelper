@@ -2,8 +2,4 @@ Builds/
 build/
 Library/
 iosBuilds/
-obj/Debug/
-Logs/
-.vs/
-Assets/Scripts/.vs/
-Assets/TextMesh Pro/
+
