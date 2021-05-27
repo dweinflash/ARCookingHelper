@@ -222,3 +222,105 @@ System memory in use after: 140.0 MB.
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2446.
 Total: 23.714259 ms (FindLiveObjects: 0.931868 ms CreateObjectMapping: 0.074906 ms MarkObjects: 22.577655 ms  DeleteObjects: 0.128088 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 11650.844231 seconds.
+  path: Assets/Prefabs/Pasta_old.prefab
+  artifactKey: Guid(29142292645734d70ba8cdb2c54f8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pasta_old.prefab using Guid(29142292645734d70ba8cdb2c54f8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1baa10d19ef4339bac49f248d0e1e3') in 0.159645 seconds
+  Import took 0.165461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.804056 seconds.
+  path: Assets/Prefabs/Pot_big.prefab
+  artifactKey: Guid(8a0d35ebb80f344629cf6b3d3f14932a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pot_big.prefab using Guid(8a0d35ebb80f344629cf6b3d3f14932a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e560c7d25731d53744589144bd83acc') in 0.016200 seconds
+  Import took 0.020730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.271441 seconds.
+  path: Assets/Prefabs/Pasta_big.prefab
+  artifactKey: Guid(29142292645734d70ba8cdb2c54f8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pasta_big.prefab using Guid(29142292645734d70ba8cdb2c54f8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be12cc84f9415a15fe408e40147ab8e') in 0.015362 seconds
+  Import took 0.020175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 287.620959 seconds.
+  path: Assets/Prefabs/Pot.prefab
+  artifactKey: Guid(a2cd2a7f0b0a24254b0664b840f0d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pot.prefab using Guid(a2cd2a7f0b0a24254b0664b840f0d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18886f2451dab90520140b2aa561723f') in 0.100363 seconds
+  Import took 0.105299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.349744 seconds.
+  path: Assets/Prefabs/Pasta.prefab
+  artifactKey: Guid(62e38df4b60a447f89bcdea14ad6e111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pasta.prefab using Guid(62e38df4b60a447f89bcdea14ad6e111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b96e2071bdbe72c9f27c8422716eaf7') in 0.013893 seconds
+  Import took 0.019307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006539 seconds.
+  path: Assets/Prefabs/Pasta.prefab
+  artifactKey: Guid(62e38df4b60a447f89bcdea14ad6e111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pasta.prefab using Guid(62e38df4b60a447f89bcdea14ad6e111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b96e2071bdbe72c9f27c8422716eaf7') in 0.015665 seconds
+  Import took 0.018927 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.1 MB.
+System memory in use after: 140.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2446.
+Total: 3.070427 ms (FindLiveObjects: 0.254711 ms CreateObjectMapping: 0.080799 ms MarkObjects: 2.672656 ms  DeleteObjects: 0.060817 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 355.321138 seconds.
+  path: Assets/Prefabs/Pot_little.prefab
+  artifactKey: Guid(a2cd2a7f0b0a24254b0664b840f0d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pot_little.prefab using Guid(a2cd2a7f0b0a24254b0664b840f0d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddaafe46bb1453184a2766207b4a1560') in 0.101390 seconds
+  Import took 0.106132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007368 seconds.
+  path: Assets/Prefabs/Pot_little.prefab
+  artifactKey: Guid(a2cd2a7f0b0a24254b0664b840f0d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pot_little.prefab using Guid(a2cd2a7f0b0a24254b0664b840f0d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddaafe46bb1453184a2766207b4a1560') in 0.012143 seconds
+  Import took 0.016046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.553971 seconds.
+  path: Assets/Prefabs/Pot.prefab
+  artifactKey: Guid(22c032cc855794d7ea292105ed30a411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pot.prefab using Guid(22c032cc855794d7ea292105ed30a411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ba8a204787e60d2e1b864ab4ddb06a') in 0.020612 seconds
+  Import took 0.025332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002795 seconds.
+  path: Assets/Prefabs/Pot.prefab
+  artifactKey: Guid(22c032cc855794d7ea292105ed30a411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pot.prefab using Guid(22c032cc855794d7ea292105ed30a411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ba8a204787e60d2e1b864ab4ddb06a') in 0.014724 seconds
+  Import took 0.017935 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.3 MB.
+System memory in use after: 140.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2446.
+Total: 4.305223 ms (FindLiveObjects: 0.405705 ms CreateObjectMapping: 0.116502 ms MarkObjects: 3.698276 ms  DeleteObjects: 0.082411 ms)
+
