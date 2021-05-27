@@ -128,7 +128,14 @@ public class SpawnObjectOnPlane : MonoBehaviour
         else
         {
             videoPlayer.clip = videos[videoNumPlays];
-            actionText.text = videos[videoNumPlays].ToString();
+            string instruction = videos[videoNumPlays].ToString();
+            instruction = instruction.ToUpper();
+            instruction = instruction.Replace("_", " ");
+            instruction = instruction.Trim(new Char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' });
+            actionText.text = instruction;
+
+            //actionText.text = videos[videoNumPlays].ToString();
+
             videoNumPlays++;
             videoPlayer.Play();
         }

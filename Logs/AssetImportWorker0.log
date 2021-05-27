@@ -357,3 +357,149 @@ System memory in use after: 140.6 MB.
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2446.
 Total: 3.903725 ms (FindLiveObjects: 0.409222 ms CreateObjectMapping: 0.161618 ms MarkObjects: 3.256914 ms  DeleteObjects: 0.074050 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 3915.598828 seconds.
+  path: Assets/Prefabs/Pasta_medium.prefab
+  artifactKey: Guid(62e38df4b60a447f89bcdea14ad6e111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pasta_medium.prefab using Guid(62e38df4b60a447f89bcdea14ad6e111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d34da6430ef15f0c2f4255b63b06cd') in 0.103597 seconds
+  Import took 0.108526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.485851 seconds.
+  path: Assets/Prefabs/Pasta.prefab
+  artifactKey: Guid(29142292645734d70ba8cdb2c54f8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pasta.prefab using Guid(29142292645734d70ba8cdb2c54f8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee7c3947e193d935c3bb5e186daa890') in 0.013269 seconds
+  Import took 0.017348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.405526 seconds.
+  path: Assets/Prefabs/Pasta.prefab
+  artifactKey: Guid(29142292645734d70ba8cdb2c54f8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pasta.prefab using Guid(29142292645734d70ba8cdb2c54f8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b519cc5eb06333fc111ea18365544a2') in 0.013560 seconds
+  Import took 0.017737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.205363 seconds.
+  path: Assets/Prefabs/Pasta.prefab
+  artifactKey: Guid(29142292645734d70ba8cdb2c54f8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pasta.prefab using Guid(29142292645734d70ba8cdb2c54f8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfb4127360b589fb974b8e75b37481c') in 0.013075 seconds
+  Import took 0.017040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.524464 seconds.
+  path: Assets/Prefabs/Pasta.prefab
+  artifactKey: Guid(29142292645734d70ba8cdb2c54f8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pasta.prefab using Guid(29142292645734d70ba8cdb2c54f8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26319368148e88db1e65b8a6f87d777d') in 0.109516 seconds
+  Import took 0.114553 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.7 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2446.
+Total: 3.683451 ms (FindLiveObjects: 0.337226 ms CreateObjectMapping: 0.122119 ms MarkObjects: 3.163195 ms  DeleteObjects: 0.059837 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 251.753524 seconds.
+  path: Assets/Prefabs/Pasta_big.prefab
+  artifactKey: Guid(29142292645734d70ba8cdb2c54f8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pasta_big.prefab using Guid(29142292645734d70ba8cdb2c54f8b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55bb5e21beedce8905de6e65b5149d6') in 0.102038 seconds
+  Import took 0.107246 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.8 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2446.
+Total: 3.089420 ms (FindLiveObjects: 0.321783 ms CreateObjectMapping: 0.080176 ms MarkObjects: 2.617675 ms  DeleteObjects: 0.068412 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 945.028067 seconds.
+  path: Assets/Scripts/AnimDropdown.cs
+  artifactKey: Guid(616ed697465b041d48dcd2aa050ee5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AnimDropdown.cs using Guid(616ed697465b041d48dcd2aa050ee5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3b1196ace22b3c18ce915397133ac2') in 0.406998 seconds
+  Import took 0.412337 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001393 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.554 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.6 MB.
+System memory in use after: 181.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2450.
+Total: 2.881201 ms (FindLiveObjects: 0.327299 ms CreateObjectMapping: 0.083178 ms MarkObjects: 2.394812 ms  DeleteObjects: 0.074242 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.9 MB.
+System memory in use after: 144.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2450.
+Total: 3.076299 ms (FindLiveObjects: 0.282302 ms CreateObjectMapping: 0.102970 ms MarkObjects: 2.611417 ms  DeleteObjects: 0.078121 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001756 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.0 MB.
+System memory in use after: 182.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2454.
+Total: 3.167744 ms (FindLiveObjects: 0.371810 ms CreateObjectMapping: 0.086200 ms MarkObjects: 2.639585 ms  DeleteObjects: 0.068278 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.2 MB.
+System memory in use after: 144.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2454.
+Total: 2.871071 ms (FindLiveObjects: 0.255255 ms CreateObjectMapping: 0.082259 ms MarkObjects: 2.464987 ms  DeleteObjects: 0.066644 ms)
+
