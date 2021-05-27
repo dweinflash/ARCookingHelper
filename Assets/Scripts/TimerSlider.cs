@@ -71,6 +71,7 @@ public class TimerSlider : MonoBehaviour
             stopTimer = true;
             timerText.gameObject.SetActive(false);
             timerDoneText.gameObject.SetActive(true);
+            timerSlider.value = timerSlider.maxValue;
             fillImage.color = doneFillColor;
         }
     }
