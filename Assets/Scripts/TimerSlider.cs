@@ -28,7 +28,7 @@ public class TimerSlider : MonoBehaviour
         timerDoneText.gameObject.SetActive(false);
 
         fillImage = GameObject.FindGameObjectWithTag("SliderFill").GetComponent<Image>();
-
+        fillImage.color = normalFillColor;
     }
 
     public void Init(float maxTimeSec)
@@ -37,7 +37,7 @@ public class TimerSlider : MonoBehaviour
         stopTimer = false;
         timerDoneText.gameObject.SetActive(false);
         time = maxTimeSec;
-        warningLimit = maxTimeSec * 0.2f;
+        warningLimit = maxTimeSec * 0.1f;
         timerSlider.maxValue = time;
         timerSlider.value = time;
         timerText.gameObject.SetActive(true);
