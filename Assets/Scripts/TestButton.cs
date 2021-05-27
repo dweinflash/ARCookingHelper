@@ -23,6 +23,6 @@ public class TestButton : MonoBehaviour
 
     void TaskOnClick()
     {
-        slider.Init(120f);
+        slider.Init(540f);
     }
 }
