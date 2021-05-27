@@ -7967,10 +7967,10 @@ inline Image_t4021FF27176E44BFEDDCBE43C7FE6B713EC70D3C * GameObject_GetComponent
 {
 	return ((  Image_t4021FF27176E44BFEDDCBE43C7FE6B713EC70D3C * (*) (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 *, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_mCE43118393A796C759AC5D43257AB2330881767D_gshared)(__this, method);
 }
-// System.Void UnityEngine.UI.Slider::set_maxValue(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Slider_set_maxValue_m5CDA3D451B68CF2D3FCFF43D1738D1DCC1C6425B (Slider_tBF39A11CC24CBD3F8BD728982ACAEAE43989B51A * __this, float ___value0, const RuntimeMethod* method);
 // UnityEngine.Color UnityEngine.Color32::op_Implicit(UnityEngine.Color32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  Color32_op_Implicit_m63F14F1A14B1A9A3EE4D154413EE229D3E001623 (Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  ___c0, const RuntimeMethod* method);
+// System.Void UnityEngine.UI.Slider::set_maxValue(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Slider_set_maxValue_m5CDA3D451B68CF2D3FCFF43D1738D1DCC1C6425B (Slider_tBF39A11CC24CBD3F8BD728982ACAEAE43989B51A * __this, float ___value0, const RuntimeMethod* method);
 // System.Single UnityEngine.Time::get_deltaTime()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mCC15F147DA67F38C74CE408FB5D7FF4A87DA2290 (const RuntimeMethod* method);
 // System.Int32 UnityEngine.Mathf::FloorToInt(System.Single)
@@ -9479,10 +9479,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestButton_Update_mDF8E39FD602C0ACE4E1CE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestButton_TaskOnClick_m919392C3F0F6C11273B4431A5318EB2CB6C08DC7 (TestButton_tE977E63D68EA4F6851158C63D8196784313D326B * __this, const RuntimeMethod* method)
 {
 	{
-		// slider.Init(120f);
+		// slider.Init(540f);
 		TimerSlider_t955734CE35627AEDF86C36F4C8133C7EA3FB0632 * L_0 = __this->get_slider_5();
 		NullCheck(L_0);
-		TimerSlider_Init_m42236E1D0C264DBEB880CDC5172A5DB148993D04(L_0, (120.0f), /*hidden argument*/NULL);
+		TimerSlider_Init_m42236E1D0C264DBEB880CDC5172A5DB148993D04(L_0, (540.0f), /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -10215,6 +10215,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerSlider_Start_mDD9E8C3E248643BEC38F8
 		Image_t4021FF27176E44BFEDDCBE43C7FE6B713EC70D3C * L_11;
 		L_11 = GameObject_GetComponent_TisImage_t4021FF27176E44BFEDDCBE43C7FE6B713EC70D3C_m16ABC1D7B4E804984517841F8D26E9C769FAE710(L_10, /*hidden argument*/GameObject_GetComponent_TisImage_t4021FF27176E44BFEDDCBE43C7FE6B713EC70D3C_m16ABC1D7B4E804984517841F8D26E9C769FAE710_RuntimeMethod_var);
 		__this->set_fillImage_7(L_11);
+		// fillImage.color = normalFillColor;
+		Image_t4021FF27176E44BFEDDCBE43C7FE6B713EC70D3C * L_12 = __this->get_fillImage_7();
+		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_13 = __this->get_normalFillColor_8();
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_14;
+		L_14 = Color32_op_Implicit_m63F14F1A14B1A9A3EE4D154413EE229D3E001623(L_13, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		VirtActionInvoker1< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_12, L_14);
 		// }
 		return;
 	}
@@ -10245,9 +10252,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerSlider_Init_m42236E1D0C264DBEB880CD
 		// time = maxTimeSec;
 		float L_2 = ___maxTimeSec0;
 		__this->set_time_6(L_2);
-		// warningLimit = maxTimeSec * 0.2f;
+		// warningLimit = maxTimeSec * 0.1f;
 		float L_3 = ___maxTimeSec0;
-		__this->set_warningLimit_11(((float)il2cpp_codegen_multiply((float)L_3, (float)(0.200000003f))));
+		__this->set_warningLimit_11(((float)il2cpp_codegen_multiply((float)L_3, (float)(0.100000001f))));
 		// timerSlider.maxValue = time;
 		Slider_tBF39A11CC24CBD3F8BD728982ACAEAE43989B51A * L_4 = __this->get_timerSlider_4();
 		float L_5 = __this->get_time_6();
