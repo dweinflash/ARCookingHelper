@@ -19,52 +19,52 @@
       "DebugActionIndex": 0
     },
     {
-      "Annotation": "Il2Cpp /Users/sierrawang/CS291a/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput",
-      "Action": "\"/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/sierrawang/CS291a/ARCookingHelper/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/sierrawang/CS291a/ARCookingHelper/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/sierrawang/CS291a/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput\"",
+      "Annotation": "Il2Cpp /Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput",
+      "Action": "\"/Applications/Unity/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput\"",
       "Inputs": [
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/Mono.Security.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/System.Configuration.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/System.Core.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/System.Xml.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/System.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/Unity.InputSystem.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.dll",
-        "/Users/sierrawang/CS291a/ARCookingHelper/Temp/StagingArea/Data/Managed/mscorlib.dll"
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/System.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/Unity.InputSystem.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Temp/StagingArea/Data/Managed/mscorlib.dll"
       ],
       "Outputs": [],
       "TargetDirectories": [
-        "/Users/sierrawang/CS291a/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput"
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput"
       ],
       "PassIndex": 0,
       "Deps": [],
@@ -75,13 +75,13 @@
       "DebugActionIndex": 1
     },
     {
-      "Annotation": "Copy Additional C++ File /Users/sierrawang/CS291a/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
-      "Action": "cp \"/Users/sierrawang/CS291a/ARCookingHelper/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"/Users/sierrawang/CS291a/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
+      "Annotation": "Copy Additional C++ File /Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
+      "Action": "cp \"/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
       "Inputs": [
-        "/Users/sierrawang/CS291a/ARCookingHelper/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
       ],
       "Outputs": [
-        "/Users/sierrawang/CS291a/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -95,13 +95,13 @@
       "DebugActionIndex": 2
     },
     {
-      "Annotation": "Copy Additional C++ File /Users/sierrawang/CS291a/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
-      "Action": "cp \"/Users/sierrawang/CS291a/ARCookingHelper/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"/Users/sierrawang/CS291a/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
+      "Annotation": "Copy Additional C++ File /Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
+      "Action": "cp \"/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
       "Inputs": [
-        "/Users/sierrawang/CS291a/ARCookingHelper/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
       ],
       "Outputs": [
-        "/Users/sierrawang/CS291a/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
+        "/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -117,7 +117,7 @@
   ],
   "FileSignatures": [
     {
-      "File": "../../../../../Library"
+      "File": "../../../../../../../Library"
     },
     {
       "File": "../../../Temp/StagingArea/Data/Managed"

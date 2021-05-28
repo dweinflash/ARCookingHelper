@@ -119,7 +119,7 @@ public class SpawnObjectOnPlane : MonoBehaviour
             return;
         }
 
-        if (videoNumPlays == videos.Length-1)
+        if (videoNumPlays == videos.Length)
         {
             videoPlayer.Stop();
             videoNumPlays = 0;

@@ -110,7 +110,7 @@ public class ImageTracking : MonoBehaviour
     private void setRecipes()
     {
         // Spaghetti
-        if (seenObjects["Pasta"] && seenObjects["Pot"])
+        if (seenObjects["Pasta"] && seenObjects["Stock Pot"])
         {
             if (!recipeList.Contains("Spaghetti"))
             {
