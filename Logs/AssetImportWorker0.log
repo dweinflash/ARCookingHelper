@@ -1,565 +1,85 @@
 Using pre-set license
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper
+/Users/sierrawang/CS291a/ARCookingHelper
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59565
-Successfully changed project path to: /Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper
-/Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper
+56796
+Successfully changed project path to: /Users/sierrawang/CS291a/ARCookingHelper
+/Users/sierrawang/CS291a/ARCookingHelper
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 51.02 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 50.05 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/dweinflash/Documents/UCSB/AR_291A/ARCookingHelper/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/sierrawang/CS291a/ARCookingHelper/Assets
 GfxDevice: creating device client; threaded=0
-2021-05-27 18:28:18.383 Unity[88350:1336043] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-05-27 18:28:18.383 Unity[88350:1336043] Metal devices available: 1
-2021-05-27 18:28:18.384 Unity[88350:1336043] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-05-27 18:28:18.384 Unity[88350:1336043] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+2021-05-29 14:22:53.857 Unity[5528:4302257] Color LCD preferred device: Intel Iris Pro Graphics (low power)
+2021-05-29 14:22:53.857 Unity[5528:4302257] Metal devices available: 2
+2021-05-29 14:22:53.857 Unity[5528:4302257] 0: NVIDIA GeForce GT 750M (high power)
+2021-05-29 14:22:53.857 Unity[5528:4302257] 1: Intel Iris Pro Graphics (low power)
+2021-05-29 14:22:53.858 Unity[5528:4302257] Using device NVIDIA GeForce GT 750M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 750M
 Initialize mono
-Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56350
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002104 seconds.
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002814 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 45.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 43.04 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.175 seconds
+- Completed reload, in  7.765 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006035 seconds.
+Registered in 0.006143 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 43.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 44.90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.345 seconds
+- Completed reload, in  1.517 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1955 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.0 MB.
-System memory in use after: 148.0 MB.
+System memory in use before: 152.4 MB.
+System memory in use after: 152.4 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2399.
-Total: 3.386336 ms (FindLiveObjects: 0.375322 ms CreateObjectMapping: 0.113676 ms MarkObjects: 2.802586 ms  DeleteObjects: 0.093100 ms)
+Total: 3.015577 ms (FindLiveObjects: 0.286640 ms CreateObjectMapping: 0.085216 ms MarkObjects: 2.530963 ms  DeleteObjects: 0.111200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Videos/P01_08_subtitles.MP4
-  artifactKey: Guid(fb69f272899724ec79cccfa8f77108ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08_subtitles.MP4 using Guid(fb69f272899724ec79cccfa8f77108ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586a7c1f3c90e279af313a07effdf508') in 1.178879 seconds
-  Import took 1.183165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.303993 seconds.
-  path: Assets/Videos/Spaghetti
-  artifactKey: Guid(c2181bc5ab81e4d96931febadabf6e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti using Guid(c2181bc5ab81e4d96931febadabf6e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc37985dc884664bb324993c37b9b1b1') in 0.001629 seconds
-  Import took 0.005442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018041 seconds.
-  path: Assets/Videos/Spaghetti
-  artifactKey: Guid(c2181bc5ab81e4d96931febadabf6e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti using Guid(c2181bc5ab81e4d96931febadabf6e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc37985dc884664bb324993c37b9b1b1') in 0.001379 seconds
-  Import took 0.004958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.660668 seconds.
-  path: Assets/Videos/Spaghetti/0_put_water.mp4
-  artifactKey: Guid(23c3fe9129d724f039961309f9bfebed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/0_put_water.mp4 using Guid(23c3fe9129d724f039961309f9bfebed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829438471923c96dd69ff4da2a61b649') in 0.855137 seconds
-  Import took 0.861817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/Videos/Spaghetti/2_add_salt.mp4
-  artifactKey: Guid(e00195ea9399b447a8b0c92af5b27f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/2_add_salt.mp4 using Guid(e00195ea9399b447a8b0c92af5b27f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b78350e71bfbe77a7b77e866a8f2b7') in 0.005621 seconds
-  Import took 0.009283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Videos/Spaghetti/1_take_pot.mp4
-  artifactKey: Guid(dd3150edf51cf44ec88bb4268104a574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/1_take_pot.mp4 using Guid(dd3150edf51cf44ec88bb4268104a574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b4f92c84649085ded0e969fa9f0dcf') in 0.004469 seconds
-  Import took 0.008116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Videos/Spaghetti/3_turn-on_hob.mp4
-  artifactKey: Guid(d1b41830998894f7e8ea227a873e9a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/3_turn-on_hob.mp4 using Guid(d1b41830998894f7e8ea227a873e9a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b76e3073bf0ca772bdc12076946c6b') in 0.004290 seconds
-  Import took 0.007739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.624865 seconds.
-  path: Assets/Videos/Spaghetti/4_put_pasta.mp4
-  artifactKey: Guid(ee1223e83735d41278b65f3ac21fe1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/4_put_pasta.mp4 using Guid(ee1223e83735d41278b65f3ac21fe1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c300e16298e7f6f32800d98247db8eed') in 0.007266 seconds
-  Import took 0.013779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Videos/Spaghetti/6_boil_pasta.mp4
-  artifactKey: Guid(4b209f64dfe884877ad3c5d67dec7c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/6_boil_pasta.mp4 using Guid(4b209f64dfe884877ad3c5d67dec7c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956280ae4c1e7ddcf9e982773debe5a0') in 0.006548 seconds
-  Import took 0.011862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Videos/Spaghetti/5_mix_pasta.mp4
-  artifactKey: Guid(ce115479015a141f0b8caf734bb415c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/5_mix_pasta.mp4 using Guid(ce115479015a141f0b8caf734bb415c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb4e004cc03d459968c3a02ac7707b5') in 0.006436 seconds
-  Import took 0.012477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.003254 seconds.
-  path: Assets/Videos/Spaghetti/7_stir_pasta.mp4
-  artifactKey: Guid(ad51956f9f8c04bd6adfc2f241b2ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/7_stir_pasta.mp4 using Guid(ad51956f9f8c04bd6adfc2f241b2ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20cc732fe5760aa588312fe81596d78') in 0.006415 seconds
-  Import took 0.011421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011166 seconds.
-  path: Assets/Videos/Spaghetti/7_stir_pasta.mp4
-  artifactKey: Guid(ad51956f9f8c04bd6adfc2f241b2ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/7_stir_pasta.mp4 using Guid(ad51956f9f8c04bd6adfc2f241b2ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20cc732fe5760aa588312fe81596d78') in 0.004365 seconds
-  Import took 0.008109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.450134 seconds.
-  path: Assets/Videos/Spaghetti/8_drain_pasta.mp4
-  artifactKey: Guid(d8846e82c7d964933b4f5b1792646b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/8_drain_pasta.mp4 using Guid(d8846e82c7d964933b4f5b1792646b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a52a038ca73a87a3014d04d381b222') in 0.005791 seconds
-  Import took 0.010251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Videos/Spaghetti/9_rinse_pasta.mp4
-  artifactKey: Guid(06d2b584f171441339c2b77b4342b761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/9_rinse_pasta.mp4 using Guid(06d2b584f171441339c2b77b4342b761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0417e9a5fc3b15f82f8e65cb03558ef3') in 0.006182 seconds
-  Import took 0.011417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.873080 seconds.
-  path: Assets/Videos/Spaghetti/10_put_pasta.mp4
-  artifactKey: Guid(ee234524ed1634eafb6522838410798b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/10_put_pasta.mp4 using Guid(ee234524ed1634eafb6522838410798b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2470a9e37b0d18edc60aa83b507b6eb8') in 0.005946 seconds
-  Import took 0.011217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Videos/Spaghetti/11_add_butter.mp4
-  artifactKey: Guid(708871f7b0340495b93dddc8aa2022bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/11_add_butter.mp4 using Guid(708871f7b0340495b93dddc8aa2022bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08da605319cad5d28eec925813533f2b') in 0.006478 seconds
-  Import took 0.011323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Videos/Spaghetti/12_mix_butter.mp4
-  artifactKey: Guid(3381338981d644d8ba55c692e268eed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/12_mix_butter.mp4 using Guid(3381338981d644d8ba55c692e268eed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125b3d94faa8067e1a7f47b768bae32a') in 0.005892 seconds
-  Import took 0.010882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Videos/Spaghetti/10_put_pasta.mp4
-  artifactKey: Guid(ee234524ed1634eafb6522838410798b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/10_put_pasta.mp4 using Guid(ee234524ed1634eafb6522838410798b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2470a9e37b0d18edc60aa83b507b6eb8') in 0.005409 seconds
-  Import took 0.008483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010767 seconds.
-  path: Assets/Videos/Spaghetti/11_add_butter.mp4
-  artifactKey: Guid(708871f7b0340495b93dddc8aa2022bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/11_add_butter.mp4 using Guid(708871f7b0340495b93dddc8aa2022bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08da605319cad5d28eec925813533f2b') in 0.004256 seconds
-  Import took 0.007530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.547569 seconds.
-  path: Assets/Videos/Spaghetti/13_serve_pasta.mp4
-  artifactKey: Guid(22fae5d7c2b85425880c140b5939e291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/13_serve_pasta.mp4 using Guid(22fae5d7c2b85425880c140b5939e291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f91fedbfe73a5b511964697d76af067') in 0.005936 seconds
-  Import took 0.011374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007101 seconds.
-  path: Assets/Videos/Spaghetti/13_serve_pasta.mp4
-  artifactKey: Guid(22fae5d7c2b85425880c140b5939e291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Spaghetti/13_serve_pasta.mp4 using Guid(22fae5d7c2b85425880c140b5939e291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f91fedbfe73a5b511964697d76af067') in 0.006010 seconds
-  Import took 0.009830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.104649 seconds.
-  path: Assets/Videos/P01_08/0_fold_bar-cereal.mp4
-  artifactKey: Guid(5d63c17323a694807b8f4370c04e3b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/0_fold_bar-cereal.mp4 using Guid(5d63c17323a694807b8f4370c04e3b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ad95e04fbbae46be2acdb038a70641') in 0.006149 seconds
-  Import took 0.011534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.740601 seconds.
-  path: Assets/Videos/P01_08/1_close_box.mp4
-  artifactKey: Guid(d14a24e6d79734c34a1f8fefaabfd497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/1_close_box.mp4 using Guid(d14a24e6d79734c34a1f8fefaabfd497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ad570794e23b3f3e70494b3fa814fc') in 0.006260 seconds
-  Import took 0.012886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.836823 seconds.
-  path: Assets/Videos/P01_08/2_open_cupboard.mp4
-  artifactKey: Guid(8677627473103471ead1033e0aaa1cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/2_open_cupboard.mp4 using Guid(8677627473103471ead1033e0aaa1cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431641b6bca3d8a776f48282e52faf31') in 0.004461 seconds
-  Import took 0.008428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.219184 seconds.
-  path: Assets/Videos/P01_08/3_put_cupboard.mp4
-  artifactKey: Guid(f9dc26f1cc5604465b9229f51aa3d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/3_put_cupboard.mp4 using Guid(f9dc26f1cc5604465b9229f51aa3d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215e8d0ea4d1dea41d33a4f1e01df845') in 0.004358 seconds
-  Import took 0.009358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.516907 seconds.
-  path: Assets/Videos/P01_08/4_take_glass.mp4
-  artifactKey: Guid(05712310c98464bc0bdad8bf0acbe35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/4_take_glass.mp4 using Guid(05712310c98464bc0bdad8bf0acbe35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547e301e49c977d5c36258732f3ad2f9') in 0.006625 seconds
-  Import took 0.013639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.436210 seconds.
-  path: Assets/Videos/P01_08/5_put_liquid.mp4
-  artifactKey: Guid(1cc5d06cd5fd14f458832b55f20074dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/5_put_liquid.mp4 using Guid(1cc5d06cd5fd14f458832b55f20074dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0830591d8e70e90493a02b7701b478') in 0.004410 seconds
-  Import took 0.008770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.259805 seconds.
-  path: Assets/Videos/P01_08/6_pour_liquid.mp4
-  artifactKey: Guid(5d1627d24dd3a468d909097e0845e70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/6_pour_liquid.mp4 using Guid(5d1627d24dd3a468d909097e0845e70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00b6b4be0e8b352d9f6a23b7098181e') in 0.006373 seconds
-  Import took 0.014020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.683100 seconds.
-  path: Assets/Videos/P01_08/7_pour_cup.mp4
-  artifactKey: Guid(b23909b6f5f684072adc9256aeca55ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/7_pour_cup.mp4 using Guid(b23909b6f5f684072adc9256aeca55ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61080cfc72bfc4617c8defd4516466e1') in 0.005815 seconds
-  Import took 0.009978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.325936 seconds.
-  path: Assets/Videos/P01_08/8_wash_cup.mp4
-  artifactKey: Guid(50728f8776a194fc792b8d1d0651abdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/8_wash_cup.mp4 using Guid(50728f8776a194fc792b8d1d0651abdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44e360864c383e61bc12db30cd62e47') in 0.004759 seconds
-  Import took 0.009391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.280802 seconds.
-  path: Assets/Videos/P01_08/9_wash_spoon.mp4
-  artifactKey: Guid(739c6eeccf3c64c7db721f7dff36f40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/9_wash_spoon.mp4 using Guid(739c6eeccf3c64c7db721f7dff36f40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b12214a59f64c01387e4497480e5f98') in 0.004780 seconds
-  Import took 0.009227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.921735 seconds.
-  path: Assets/Videos/P01_08/10_wash_cup.mp4
-  artifactKey: Guid(8304a0c9fb1074e7e80a54261cbb1c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/10_wash_cup.mp4 using Guid(8304a0c9fb1074e7e80a54261cbb1c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bac86b03375fc1d065646d155d231d') in 0.004980 seconds
-  Import took 0.009227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.754520 seconds.
-  path: Assets/Videos/P01_08/11_put_water.mp4
-  artifactKey: Guid(a471a2190d7be489596353ff7d89a0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/11_put_water.mp4 using Guid(a471a2190d7be489596353ff7d89a0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e42dc2497e30554c73c72ed7100fd87') in 0.005173 seconds
-  Import took 0.009034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.135822 seconds.
-  path: Assets/Videos/P01_08/12_dry_hand.mp4
-  artifactKey: Guid(08a7237bddb574ee9b9b16b50cc64aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/12_dry_hand.mp4 using Guid(08a7237bddb574ee9b9b16b50cc64aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1ef9961507d7329e775377346624e6') in 0.005086 seconds
-  Import took 0.009679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004373 seconds.
-  path: Assets/Videos/P01_08/12_dry_hand.mp4
-  artifactKey: Guid(08a7237bddb574ee9b9b16b50cc64aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/12_dry_hand.mp4 using Guid(08a7237bddb574ee9b9b16b50cc64aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1ef9961507d7329e775377346624e6') in 0.004378 seconds
-  Import took 0.007628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.459504 seconds.
-  path: Assets/Videos/P01_08/13_hang_cloth.mp4
-  artifactKey: Guid(c143940bab2e841aa80b931125919c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/13_hang_cloth.mp4 using Guid(c143940bab2e841aa80b931125919c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800ba517768cc9cbf7e943c947204b62') in 0.006702 seconds
-  Import took 0.014545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.687203 seconds.
-  path: Assets/Scripts/SpawnObjectOnPlane.cs
-  artifactKey: Guid(c170aa43038774d7897a1f19c36a2ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SpawnObjectOnPlane.cs using Guid(c170aa43038774d7897a1f19c36a2ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38b9555fcbc62d427cb85d90b7ef871') in 0.370596 seconds
-  Import took 0.374748 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001413 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.289 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.9 MB.
-System memory in use after: 159.9 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2403.
-Total: 2.868405 ms (FindLiveObjects: 0.293816 ms CreateObjectMapping: 0.083753 ms MarkObjects: 2.418820 ms  DeleteObjects: 0.070702 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 48.710762 seconds.
-  path: Assets/Textures/Chef.png
-  artifactKey: Guid(c49da2896f445431baf9ca5147f14d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Chef.png using Guid(c49da2896f445431baf9ca5147f14d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ee2477bf75bdfd5dd455f9493aae9f') in 1.136342 seconds
-  Import took 1.141268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Textures/Pasta.jpg
-  artifactKey: Guid(8e1b736a106ea48cbbb92338191a2f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Pasta.jpg using Guid(8e1b736a106ea48cbbb92338191a2f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14819a556fba59f825b96fe2b9e0c92') in 1.267736 seconds
-  Import took 1.271533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Textures/Pot.jpg
-  artifactKey: Guid(cea18dcad72684b658f5290d5654d64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Pot.jpg using Guid(cea18dcad72684b658f5290d5654d64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0641f79b2d81a3f2d335fef9d9c346e9') in 0.237246 seconds
-  Import took 0.241507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Textures/Pasta.jpg
-  artifactKey: Guid(8e1b736a106ea48cbbb92338191a2f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Pasta.jpg using Guid(8e1b736a106ea48cbbb92338191a2f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14819a556fba59f825b96fe2b9e0c92') in 0.227799 seconds
-  Import took 0.230928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 195.263416 seconds.
-  path: Assets/Textures/Salt.jpg
-  artifactKey: Guid(dd5a2df8558c94a3daeaa734494536f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Salt.jpg using Guid(dd5a2df8558c94a3daeaa734494536f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd461b73a72626873345431e4b23199') in 0.263795 seconds
-  Import took 0.276522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Textures/Stock Pot.jpg
-  artifactKey: Guid(409db84ded07d42cd9f1bc054ca8a2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Stock Pot.jpg using Guid(409db84ded07d42cd9f1bc054ca8a2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cf78c5e58261cc63e31b5aa2aab70c') in 0.268176 seconds
-  Import took 0.272292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.035827 seconds.
-  path: Assets/Textures/Butter.jpg
-  artifactKey: Guid(c88fc73af65d242e0b67b4e4bf5921a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Butter.jpg using Guid(c88fc73af65d242e0b67b4e4bf5921a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab91930dbe6a3d547bdfd40a42b1393b') in 0.248283 seconds
-  Import took 0.253216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Textures/Colander.jpg
-  artifactKey: Guid(a1db796ce2ba740f2ac4a985869f584e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Colander.jpg using Guid(a1db796ce2ba740f2ac4a985869f584e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6285d3287b54f689a24aa067f7ec85') in 0.231654 seconds
-  Import took 0.235889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 104.389362 seconds.
   path: Assets/Prefabs/ReferenceImageLibrary.asset
   artifactKey: Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ReferenceImageLibrary.asset using Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c67a38bc36d16505f62e5af55e7403') in 2.630432 seconds
-  Import took 2.636105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.813632 seconds.
-  path: Assets/Scripts/ImageTracking.cs
-  artifactKey: Guid(7636b98c3c48741b5acc0c518c846620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ImageTracking.cs using Guid(7636b98c3c48741b5acc0c518c846620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13bf4f6a6dbbc3cab29574aa22e48e2') in 0.005341 seconds
-  Import took 0.009801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002855 seconds.
-  path: Assets/Scripts/ImageTracking.cs
-  artifactKey: Guid(7636b98c3c48741b5acc0c518c846620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ImageTracking.cs using Guid(7636b98c3c48741b5acc0c518c846620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13bf4f6a6dbbc3cab29574aa22e48e2') in 0.001892 seconds
-  Import took 0.005727 seconds .
+Start importing Assets/Prefabs/ReferenceImageLibrary.asset using Guid(cb398e0fa7e4149e9b55833271e85089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c67a38bc36d16505f62e5af55e7403') in 3.023895 seconds
+  Import took 3.029786 seconds .
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001831 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.165 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.1 MB.
-System memory in use after: 176.2 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2414.
-Total: 2.593368 ms (FindLiveObjects: 0.331525 ms CreateObjectMapping: 0.089971 ms MarkObjects: 2.093278 ms  DeleteObjects: 0.077470 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 50.835874 seconds.
-  path: Assets/Scripts/ImageTracking.cs
-  artifactKey: Guid(7636b98c3c48741b5acc0c518c846620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ImageTracking.cs using Guid(7636b98c3c48741b5acc0c518c846620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797d7916b9bcbb87845d721c9a0dc9dc') in 0.004398 seconds
-  Import took 0.008142 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.75 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 3.07 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.5 MB.
-System memory in use after: 138.5 MB.
+System memory in use before: 118.2 MB.
+System memory in use after: 118.3 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2414.
-Total: 3.394591 ms (FindLiveObjects: 0.583986 ms CreateObjectMapping: 0.080574 ms MarkObjects: 2.632867 ms  DeleteObjects: 0.096092 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1105.718118 seconds.
-  path: Assets/Videos/P01_08/14_fold_cloth.mp4
-  artifactKey: Guid(b3bc21603158b4c34aa1c9623567f44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/14_fold_cloth.mp4 using Guid(b3bc21603158b4c34aa1c9623567f44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef3136d439d62f5f1282ed76a467556') in 0.135673 seconds
-  Import took 0.163115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001239 seconds.
-  path: Assets/Videos/P01_08/17_drink_water.mp4
-  artifactKey: Guid(9dd75d64101b44725848957a362d1d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/17_drink_water.mp4 using Guid(9dd75d64101b44725848957a362d1d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce25964a2b46ba67a32f9323c94e2dc7') in 0.002933 seconds
-  Import took 0.006633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Videos/P01_08/16_pour_water.mp4
-  artifactKey: Guid(5da873f046e1545cd998aaedf11bada7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/16_pour_water.mp4 using Guid(5da873f046e1545cd998aaedf11bada7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a26df1d7333617d5b74ec03b681c6c4') in 0.002786 seconds
-  Import took 0.006002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Videos/P01_08/15_take_bottle.mp4
-  artifactKey: Guid(c8660efbcd8774f7581137e52e851ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08/15_take_bottle.mp4 using Guid(c8660efbcd8774f7581137e52e851ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cee07eea4175701c5c2e3a2b320dd5') in 0.051465 seconds
-  Import took 0.055499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.202116 seconds.
-  path: Assets/Videos/P01_08
-  artifactKey: Guid(785f1311c9754460692e4d88489a9379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/P01_08 using Guid(785f1311c9754460692e4d88489a9379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8328fa17802aa8df1afb72fdf5a364ae') in 0.001231 seconds
-  Import took 0.005032 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.6 MB.
-System memory in use after: 138.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2414.
-Total: 12.331723 ms (FindLiveObjects: 0.278692 ms CreateObjectMapping: 0.075560 ms MarkObjects: 11.894774 ms  DeleteObjects: 0.081582 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2399.
+Total: 3.411550 ms (FindLiveObjects: 0.355176 ms CreateObjectMapping: 0.121471 ms MarkObjects: 2.861001 ms  DeleteObjects: 0.072641 ms)
 
